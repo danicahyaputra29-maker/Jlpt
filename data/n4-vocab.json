@@ -1,0 +1,7 @@
+[
+{"id":"n4-v-001","mondai":1,"question":"彼は　とても　親切な　人です。","underlined":"親切","options":["しんせつ","しんぜつ","しんせっ","ちんせつ"],"answer":0,"explanation":"「親切」 dibaca 「しんせつ」. Artinya ramah/baik hati."},
+{"id":"n4-v-002","mondai":2,"question":"わたしの　しゅみは　りょうりです。","underlined":"しゅみ","options":["趣味","趣未","越味","起味"],"answer":0,"explanation":"「しゅみ」 ditulis 「趣味」. Artinya hobi."},
+{"id":"n4-v-003","mondai":3,"question":"この　かばんは　（　）ので、もちやすいです。","options":["かるい","おもい","ふるい","せまい"],"answer":0,"explanation":"「かるい」 = ringan. Tas ringan mudah dibawa."},
+{"id":"n4-v-004","mondai":4,"question":"田中さんは　とても　いそがしいです。","underlined":"とても　いそがしいです","options":["田中さんは　ひまでは　ありません。","田中さんは　げんきでは　ありません。","田中さんは　しずかでは　ありません。","田中さんは　きれいでは　ありません。"],"answer":0,"explanation":"「いそがしい」 = sibuk, lawannya 「ひま」 (senggang)."},
+{"id":"n4-v-005","mondai":5,"question":"しっぱい","options":["テストで　しっぱいして　ざんねんでした。","しっぱいした　くだものを　たべました。","毎日　しっぱいして　いい　からだに　なります。","しっぱいを　いそいで　あるきました。"],"answer":0,"explanation":"「しっぱい」 = gagal. Hanya kalimat pertama yang wajar."}
+]

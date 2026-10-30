@@ -1,0 +1,1187 @@
+[
+{
+"id": "n5-g-001",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "わたしは　まいあさ　パン（　）　たべます。",
+"options": [
+"に",
+"を",
+"で",
+"が"
+],
+"answer": 1,
+"explanation": "Objek langsung dari 「たべます」 memakai 「を」."
+},
+{
+"id": "n5-g-002",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "えき（　）　ともだちに　あいました。",
+"options": [
+"を",
+"が",
+"も",
+"で"
+],
+"answer": 3,
+"explanation": "Tempat berlangsungnya aksi memakai 「で」."
+},
+{
+"id": "n5-g-003",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "わたしは　七時（　）　おきます。",
+"options": [
+"で",
+"を",
+"が",
+"に"
+],
+"answer": 3,
+"explanation": "Waktu tertentu memakai 「に」: 「七時に」."
+},
+{
+"id": "n5-g-004",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "あした　ともだち（　）　えいがを　みます。",
+"options": [
+"を",
+"が",
+"と",
+"で"
+],
+"answer": 2,
+"explanation": "「と」 = bersama: 「ともだちと」."
+},
+{
+"id": "n5-g-005",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "日本（　）　いきたいです。",
+"options": [
+"を",
+"が",
+"で",
+"へ"
+],
+"answer": 3,
+"explanation": "Tujuan perjalanan memakai 「へ」."
+},
+{
+"id": "n5-g-006",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "この　かばんは　わたし（　）です。",
+"options": [
+"を",
+"の",
+"に",
+"で"
+],
+"answer": 1,
+"explanation": "「わたしのです」 = milik saya."
+},
+{
+"id": "n5-g-007",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "ちちは　九時（　）　十二時まで　しごとを　します。",
+"options": [
+"に",
+"を",
+"で",
+"から"
+],
+"answer": 3,
+"explanation": "Pasangan 「〜から　〜まで」 = dari ... sampai ..."
+},
+{
+"id": "n5-g-008",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "つくえの　上（　）　ペンが　あります。",
+"options": [
+"で",
+"に",
+"を",
+"へ"
+],
+"answer": 1,
+"explanation": "Tempat keberadaan benda dengan 「あります」 memakai 「に」."
+},
+{
+"id": "n5-g-009",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "こうえん（　）　子どもが　あそんで　います。",
+"options": [
+"を",
+"で",
+"へ",
+"と"
+],
+"answer": 1,
+"explanation": "Tempat berlangsungnya aksi memakai 「で」."
+},
+{
+"id": "n5-g-010",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "わたしは　コーヒー（　）　すきです。",
+"options": [
+"が",
+"を",
+"に",
+"で"
+],
+"answer": 0,
+"explanation": "Dengan 「すき」, hal yang disukai ditandai 「が」."
+},
+{
+"id": "n5-g-011",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "わたしは　にくも　さかな（　）　すきです。",
+"options": [
+"も",
+"が",
+"を",
+"に"
+],
+"answer": 0,
+"explanation": "「も」 = juga: 「にくも　さかなも」."
+},
+{
+"id": "n5-g-012",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "つくえの　上に　ペン（　）　ノートが　あります。",
+"options": [
+"で",
+"を",
+"や",
+"が"
+],
+"answer": 2,
+"explanation": "「や」 = dan (daftar sebagian): 「ペンや　ノート」."
+},
+{
+"id": "n5-g-013",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "この　かばんは　あの　かばん（　）　たかいです。",
+"options": [
+"と",
+"に",
+"で",
+"より"
+],
+"answer": 3,
+"explanation": "「〜より」 = dibandingkan dengan ..."
+},
+{
+"id": "n5-g-014",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "ともだち（　）　てがみを　かきます。",
+"options": [
+"に",
+"を",
+"で",
+"が"
+],
+"answer": 0,
+"explanation": "Penerima tindakan ditandai 「に」: 「ともだちに」."
+},
+{
+"id": "n5-g-015",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "これ（　）　わたしの　ほんです。",
+"options": [
+"を",
+"は",
+"に",
+"で"
+],
+"answer": 1,
+"explanation": "「は」 menandai topik kalimat."
+},
+{
+"id": "n5-g-016",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "バス（　）　かいしゃへ　いきます。",
+"options": [
+"を",
+"で",
+"に",
+"と"
+],
+"answer": 1,
+"explanation": "Alat transportasi ditandai 「で」: 「バスで」."
+},
+{
+"id": "n5-g-017",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "日本語（　）　はなして　ください。",
+"options": [
+"に",
+"で",
+"と",
+"が"
+],
+"answer": 1,
+"explanation": "Bahasa yang dipakai ditandai 「で」: 「日本語で」."
+},
+{
+"id": "n5-g-018",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "まいばん　おんがく（　）　ききます。",
+"options": [
+"を",
+"に",
+"で",
+"へ"
+],
+"answer": 0,
+"explanation": "Objek langsung dari 「ききます」 memakai 「を」."
+},
+{
+"id": "n5-g-019",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "ちち（　）　とけいを　もらいました。",
+"options": [
+"を",
+"で",
+"へ",
+"に"
+],
+"answer": 3,
+"explanation": "Pemberi pada 「もらいます」 ditandai 「に」: 「ちちに」."
+},
+{
+"id": "n5-g-020",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "きのう　先生（　）　あいました。",
+"options": [
+"を",
+"で",
+"が",
+"に"
+],
+"answer": 3,
+"explanation": "Orang yang ditemui ditandai 「に」: 「先生に　あいます」."
+},
+{
+"id": "n5-g-021",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "これは　日本（　）　くるまです。",
+"options": [
+"を",
+"に",
+"で",
+"の"
+],
+"answer": 3,
+"explanation": "「日本の　くるま」 = mobil Jepang."
+},
+{
+"id": "n5-g-022",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "うちから　えき（　）　あるいて　五ふんです。",
+"options": [
+"まで",
+"を",
+"に",
+"で"
+],
+"answer": 0,
+"explanation": "Pasangan 「〜から　〜まで」 = dari ... sampai ..."
+},
+{
+"id": "n5-g-023",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "あの　みせ（　）　パンを　かいました。",
+"options": [
+"を",
+"が",
+"で",
+"へ"
+],
+"answer": 2,
+"explanation": "Tempat berlangsungnya aksi memakai 「で」."
+},
+{
+"id": "n5-g-024",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "あなたは　学生です（　）。",
+"options": [
+"が",
+"を",
+"に",
+"か"
+],
+"answer": 3,
+"explanation": "「か」 di akhir kalimat menandai pertanyaan."
+},
+{
+"id": "n5-g-025",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "この　くつは　やすいです（　）、あまり　よくないです。",
+"options": [
+"が",
+"から",
+"と",
+"も"
+],
+"answer": 0,
+"explanation": "「が」 = tetapi (pertentangan)."
+},
+{
+"id": "n5-g-026",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "あしたは　テストです（　）、いま　べんきょうします。",
+"options": [
+"が",
+"と",
+"から",
+"も"
+],
+"answer": 2,
+"explanation": "「から」 menyatakan alasan: karena besok ada tes."
+},
+{
+"id": "n5-g-027",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "きょうは　いい　てんきです（　）。",
+"options": [
+"ね",
+"を",
+"に",
+"で"
+],
+"answer": 0,
+"explanation": "「ね」 di akhir kalimat = ya? (mencari persetujuan)."
+},
+{
+"id": "n5-g-028",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "きのうは　どこへも　（　）。",
+"options": [
+"いきません",
+"いきませんでした",
+"いきます",
+"いきましょう"
+],
+"answer": 1,
+"explanation": "「きのう」 = lampau, jadi lampau negatif: 「いきませんでした」."
+},
+{
+"id": "n5-g-029",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "A「いっしょに　かえり（　）。」B「ええ、かえりましょう。」",
+"options": [
+"ましょう",
+"ました",
+"ません",
+"ます"
+],
+"answer": 0,
+"explanation": "Ajakan memakai 「ましょう」."
+},
+{
+"id": "n5-g-030",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "ここで　ちょっと　（　）　ください。",
+"options": [
+"まって",
+"まち",
+"まった",
+"まつ"
+],
+"answer": 0,
+"explanation": "Permintaan: bentuk-te + 「ください」: 「まって　ください」."
+},
+{
+"id": "n5-g-031",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "ここは　としょかんですから、はなさ（　）　ください。",
+"options": [
+"ないで",
+"ません",
+"ない",
+"ませんで"
+],
+"answer": 0,
+"explanation": "Larangan halus: bentuk-ない + 「で　ください」."
+},
+{
+"id": "n5-g-032",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "いま、母は　りょうりを　（　）。",
+"options": [
+"しました",
+"します",
+"しましょう",
+"しています"
+],
+"answer": 3,
+"explanation": "「いま」 = sedang berlangsung: 「しています」."
+},
+{
+"id": "n5-g-033",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "わたしは　日本で　しごとを　し（　）です。",
+"options": [
+"ます",
+"たい",
+"ました",
+"て"
+],
+"answer": 1,
+"explanation": "「〜たいです」 = ingin ..."
+},
+{
+"id": "n5-g-034",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "てを　あらって（　）、ごはんを　たべます。",
+"options": [
+"まで",
+"が",
+"から",
+"を"
+],
+"answer": 2,
+"explanation": "「〜てから」 = setelah ..."
+},
+{
+"id": "n5-g-035",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "ここで　しゃしんを　とって（　）　いいですか。",
+"options": [
+"を",
+"が",
+"に",
+"も"
+],
+"answer": 3,
+"explanation": "「〜ても　いいですか」 = bolehkah ...?"
+},
+{
+"id": "n5-g-036",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "ここで　あそんで（　）　いけません。",
+"options": [
+"も",
+"が",
+"を",
+"は"
+],
+"answer": 3,
+"explanation": "「〜ては　いけません」 = tidak boleh ..."
+},
+{
+"id": "n5-g-037",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "きのう　なにを（　）か。",
+"options": [
+"します",
+"しました",
+"しましょう",
+"しません"
+],
+"answer": 1,
+"explanation": "「きのう」 = lampau: 「しましたか」."
+},
+{
+"id": "n5-g-038",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "けさは　あさごはんを　たべ（　）。",
+"options": [
+"ません",
+"ませんでした",
+"ましょう",
+"ます"
+],
+"answer": 1,
+"explanation": "「けさ」 = lampau; lampau negatif: 「ませんでした」."
+},
+{
+"id": "n5-g-039",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "わたしの　へやには　テレビが　（　）。",
+"options": [
+"あります",
+"ください",
+"します",
+"きます"
+],
+"answer": 0,
+"explanation": "「テレビが　あります」 = ada TV."
+},
+{
+"id": "n5-g-040",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "つくえの　上に　かさが　（　）。",
+"options": [
+"います",
+"きます",
+"します",
+"あります"
+],
+"answer": 3,
+"explanation": "Benda mati memakai 「あります」, bukan 「います」."
+},
+{
+"id": "n5-g-041",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "あした　えいがを　みに　（　）。",
+"options": [
+"みます",
+"いきます",
+"します",
+"たべます"
+],
+"answer": 1,
+"explanation": "「〜に　いきます」 = pergi untuk ..."
+},
+{
+"id": "n5-g-042",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "この　へやは　あまり　ひろく（　）。",
+"options": [
+"ないです",
+"じゃないです",
+"ではないです",
+"ないでした"
+],
+"answer": 0,
+"explanation": "Adjektiva-い negatif: 「ひろく　ないです」."
+},
+{
+"id": "n5-g-043",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "きのうの　えいがは　おもしろ（　）。",
+"options": [
+"いでした",
+"かったです",
+"でした",
+"いかったです"
+],
+"answer": 1,
+"explanation": "Adjektiva-い lampau: 「おもしろかったです」."
+},
+{
+"id": "n5-g-044",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "この　まちは　しずか（　）　きれいです。",
+"options": [
+"な",
+"で",
+"に",
+"の"
+],
+"answer": 1,
+"explanation": "Adjektiva-な + 「で」 menyambung: 「しずかで　きれい」."
+},
+{
+"id": "n5-g-045",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "しずか（　）　まちに　すんで　います。",
+"options": [
+"な",
+"で",
+"に",
+"の"
+],
+"answer": 0,
+"explanation": "Adjektiva-な + 「な」 + kata benda: 「しずかな　まち」."
+},
+{
+"id": "n5-g-046",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "あの　人は　（　）ですか。",
+"options": [
+"だれ",
+"どこ",
+"いつ",
+"いくら"
+],
+"answer": 0,
+"explanation": "「だれ」 = siapa."
+},
+{
+"id": "n5-g-047",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "この　ほんは　（　）ですか。",
+"options": [
+"だれ",
+"どこ",
+"いつ",
+"いくら"
+],
+"answer": 3,
+"explanation": "「いくら」 = berapa harga."
+},
+{
+"id": "n5-g-048",
+"level": "N5",
+"section": "grammar",
+"mondai": 1,
+"question": "あの　かさは　だれ（　）ですか。",
+"options": [
+"を",
+"に",
+"で",
+"の"
+],
+"answer": 3,
+"explanation": "「だれの」 = milik siapa."
+},
+{
+"id": "n5-g-049",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "＿＿＿　＿＿＿　★　＿＿＿　わたしの　ともだちです。",
+"options": [
+"あそこで",
+"して　いる",
+"テニスを",
+"人は"
+],
+"answer": 1,
+"explanation": "Susunan benar: あそこで → テニスを → して　いる → 人は. Yang di ★ adalah 「して　いる」."
+},
+{
+"id": "n5-g-050",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "＿＿＿　＿＿＿　★　＿＿＿　おもしろいです。",
+"options": [
+"きのう",
+"わたしが",
+"かった",
+"本は"
+],
+"answer": 2,
+"explanation": "Susunan benar: きのう → わたしが → かった → 本は. Yang di ★ adalah 「かった」."
+},
+{
+"id": "n5-g-051",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "＿＿＿　＿＿＿　★　＿＿＿　せんせいです。",
+"options": [
+"あの",
+"ひいて　いる",
+"ギターを",
+"人は"
+],
+"answer": 1,
+"explanation": "Susunan benar: あの → ギターを → ひいて　いる → 人は. Yang di ★ adalah 「ひいて　いる」."
+},
+{
+"id": "n5-g-052",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "＿＿＿　＿＿＿　★　＿＿＿　わたしの　ははです。",
+"options": [
+"あそこで",
+"ごはんを",
+"人は",
+"たべて　いる"
+],
+"answer": 3,
+"explanation": "Susunan benar: あそこで → ごはんを → たべて　いる → 人は. Yang di ★ adalah 「たべて　いる」."
+},
+{
+"id": "n5-g-053",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "＿＿＿　＿＿＿　★　＿＿＿　日本語の　先生です。",
+"options": [
+"こうえんで",
+"ほんを",
+"よんで　いる",
+"人は"
+],
+"answer": 2,
+"explanation": "Susunan benar: こうえんで → ほんを → よんで　いる → 人は. Yang di ★ adalah 「よんで　いる」."
+},
+{
+"id": "n5-g-054",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "この　＿＿＿　＿＿＿　★　＿＿＿　です。",
+"options": [
+"くるまは",
+"あの",
+"くるまより",
+"たかい"
+],
+"answer": 2,
+"explanation": "Susunan benar: くるまは → あの → くるまより → たかい. Yang di ★ adalah 「くるまより」."
+},
+{
+"id": "n5-g-055",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "あした　＿＿＿　＿＿＿　★　＿＿＿　いきます。",
+"options": [
+"ともだちと",
+"いっしょに",
+"みに",
+"えいがを"
+],
+"answer": 3,
+"explanation": "Susunan benar: ともだちと → いっしょに → えいがを → みに. Yang di ★ adalah 「えいがを」."
+},
+{
+"id": "n5-g-056",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "にちようびは　＿＿＿　＿＿＿　★　＿＿＿　いきます。",
+"options": [
+"ともだちと",
+"こうえんへ",
+"しに",
+"さんぽを"
+],
+"answer": 3,
+"explanation": "Susunan benar: ともだちと → こうえんへ → さんぽを → しに. Yang di ★ adalah 「さんぽを」."
+},
+{
+"id": "n5-g-057",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "どようびに　＿＿＿　＿＿＿　★　＿＿＿　いきます。",
+"options": [
+"ははと",
+"デパートへ",
+"かいものを",
+"しに"
+],
+"answer": 2,
+"explanation": "Susunan benar: ははと → デパートへ → かいものを → しに. Yang di ★ adalah 「かいものを」."
+},
+{
+"id": "n5-g-058",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "あそこに　＿＿＿　＿＿＿　★　＿＿＿　います。",
+"options": [
+"ちいさい",
+"しろい",
+"三びき",
+"ねこが"
+],
+"answer": 3,
+"explanation": "Susunan benar: ちいさい → しろい → ねこが → 三びき. Yang di ★ adalah 「ねこが」."
+},
+{
+"id": "n5-g-059",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "つくえの　上に　＿＿＿　＿＿＿　★　＿＿＿　あります。",
+"options": [
+"あたらしい",
+"あかい",
+"五ほん",
+"ペンが"
+],
+"answer": 3,
+"explanation": "Susunan benar: あたらしい → あかい → ペンが → 五ほん. Yang di ★ adalah 「ペンが」."
+},
+{
+"id": "n5-g-060",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "みせで　＿＿＿　＿＿＿　★　＿＿＿　かいました。",
+"options": [
+"おおきい",
+"くろい",
+"かばんを",
+"ふたつ"
+],
+"answer": 2,
+"explanation": "Susunan benar: おおきい → くろい → かばんを → ふたつ. Yang di ★ adalah 「かばんを」."
+},
+{
+"id": "n5-g-061",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "へやに　＿＿＿　＿＿＿　★　＿＿＿　います。",
+"options": [
+"いぬが",
+"かわいい",
+"ちいさい",
+"二ひき"
+],
+"answer": 0,
+"explanation": "Susunan benar: かわいい → ちいさい → いぬが → 二ひき. Yang di ★ adalah 「いぬが」."
+},
+{
+"id": "n5-g-062",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "テーブルの　上に　＿＿＿　＿＿＿　★　＿＿＿　あります。",
+"options": [
+"ケーキが",
+"おいしい",
+"あまい",
+"みっつ"
+],
+"answer": 0,
+"explanation": "Susunan benar: おいしい → あまい → ケーキが → みっつ. Yang di ★ adalah 「ケーキが」."
+},
+{
+"id": "n5-g-063",
+"level": "N5",
+"section": "grammar",
+"mondai": 2,
+"question": "かばんの　中に　＿＿＿　＿＿＿　★　＿＿＿　あります。",
+"options": [
+"あたらしい",
+"本が",
+"おもい",
+"五さつ"
+],
+"answer": 1,
+"explanation": "Susunan benar: あたらしい → おもい → 本が → 五さつ. Yang di ★ adalah 「本が」."
+},
+{
+"id": "n5-g-064",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "きのう、わたしは　ともだちと　えいがを　みました。（　）、レストランで　ごはんを　たべました。",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"でも",
+"ですから",
+"どうして",
+"それから"
+],
+"answer": 3,
+"explanation": "Urutan kejadian: setelah film, makan. Penyambung yang tepat: 「それから」 (lalu)."
+},
+{
+"id": "n5-g-065",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "わたしは　テニスが　すきです。（　）、じょうずでは　ありません。",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"でも",
+"それから",
+"ですから",
+"そして"
+],
+"answer": 0,
+"explanation": "Suka tetapi tidak pandai: pertentangan, jadi 「でも」 (tetapi)."
+},
+{
+"id": "n5-g-066",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "あしたは　テストです。（　）、きょうは　どこへも　いきません。",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"でも",
+"どうして",
+"いつ",
+"ですから"
+],
+"answer": 3,
+"explanation": "Besok tes, maka hari ini tidak ke mana-mana: sebab-akibat, 「ですから」 (karena itu)."
+},
+{
+"id": "n5-g-067",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "わたしの　うちは　えきの　ちかく（　）　あります。えきまで　あるいて　五ふんです。",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"に",
+"で",
+"を",
+"が"
+],
+"answer": 0,
+"explanation": "Letak sesuatu dengan 「あります」 ditandai 「に」: 「ちかくに」."
+},
+{
+"id": "n5-g-068",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "あした、わたしは　ともだちと　こうえんへ　いきます。そこで　さんぽを　（　）。",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"しました",
+"します",
+"しています",
+"しましょう"
+],
+"answer": 1,
+"explanation": "Rencana besok: bentuk non-lampau 「します」."
+},
+{
+"id": "n5-g-069",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "きのうは　あめでした。ですから、うちで　ほんを　（　）。",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"よみます",
+"よんで",
+"よみました",
+"よみましょう"
+],
+"answer": 2,
+"explanation": "「きのう」 = lampau: 「よみました」."
+},
+{
+"id": "n5-g-070",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "A「あなたは　どこ（　）　きましたか。」B「インドネシアから　きました。」",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"から",
+"へ",
+"を",
+"で"
+],
+"answer": 0,
+"explanation": "B menjawab 「インドネシアから」, jadi pertanyaannya 「どこから」 (dari mana)."
+},
+{
+"id": "n5-g-071",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "あさ　七時に　うちを　でます。バス（　）　かいしゃへ　いきます。",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"を",
+"で",
+"に",
+"と"
+],
+"answer": 1,
+"explanation": "Alat transportasi ditandai 「で」: 「バスで」."
+},
+{
+"id": "n5-g-072",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "きょうは　日よう日です。しごとは　（　）。うちで　ゆっくり　やすみます。",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"あります",
+"ありません",
+"ありました",
+"します"
+],
+"answer": 1,
+"explanation": "Hari Minggu dan istirahat di rumah, jadi tidak ada kerja: 「ありません」."
+},
+{
+"id": "n5-g-073",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "あした　わたしは　ともだちの　うちへ　いきます。ともだち（　）　たんじょうびです。",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"を",
+"に",
+"の",
+"で"
+],
+"answer": 2,
+"explanation": "「ともだちの　たんじょうび」 = ulang tahun teman."
+},
+{
+"id": "n5-g-074",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "わたしは　日本語を　べんきょうして　います。日本語は　むずかしいです（　）、おもしろいです。",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"から",
+"と",
+"が",
+"も"
+],
+"answer": 2,
+"explanation": "Sulit tetapi menarik: pertentangan, jadi 「が」."
+},
+{
+"id": "n5-g-075",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "A「（　）　テニスを　しますか。」B「まいしゅう　土よう日に　します。」",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"どこ",
+"だれ",
+"いつ",
+"なに"
+],
+"answer": 2,
+"explanation": "B menjawab waktu (tiap Sabtu), jadi pertanyaannya 「いつ」 (kapan)."
+},
+{
+"id": "n5-g-076",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "ここは　えきの　まえです。あそこに　ぎんこうが　（　）。",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"います",
+"きます",
+"あります",
+"します"
+],
+"answer": 2,
+"explanation": "Bank adalah benda mati: 「あります」."
+},
+{
+"id": "n5-g-077",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "わたしは　あさ　ごはんを　たべません。（　）、コーヒーは　のみます。",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"ですから",
+"でも",
+"どうして",
+"いくら"
+],
+"answer": 1,
+"explanation": "Tidak sarapan nasi tetapi minum kopi: pertentangan, jadi 「でも」."
+},
+{
+"id": "n5-g-078",
+"level": "N5",
+"section": "grammar",
+"mondai": 3,
+"passage": "この　くつは　とても　（　）。ですから、たくさん　かいました。",
+"question": "（　）に　はいる　ものを　えらんで　ください。",
+"options": [
+"やすいです",
+"たかいです",
+"おもいです",
+"ふるいです"
+],
+"answer": 0,
+"explanation": "Membeli banyak karena sepatunya murah: 「やすいです」."
+}
+]

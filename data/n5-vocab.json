@@ -1,0 +1,1652 @@
+[
+{
+"id": "n5-v-001",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "この　本は　おもしろいです。",
+"underlined": "本",
+"options": [
+"ほご",
+"ほな",
+"もん",
+"ほん"
+],
+"answer": 3,
+"explanation": "「本」 dibaca 「ほん」. Artinya buku."
+},
+{
+"id": "n5-v-002",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "きのう　友だちに　会いました。",
+"underlined": "友だち",
+"options": [
+"ともたち",
+"とむだち",
+"ゆうたち",
+"ともだち"
+],
+"answer": 3,
+"explanation": "「友だち」 dibaca 「ともだち」. Artinya teman."
+},
+{
+"id": "n5-v-003",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "あの　山は　高いです。",
+"underlined": "山",
+"options": [
+"やめ",
+"やば",
+"やさ",
+"やま"
+],
+"answer": 3,
+"explanation": "「山」 dibaca 「やま」. Artinya gunung."
+},
+{
+"id": "n5-v-004",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "この　川は　きれいです。",
+"underlined": "川",
+"options": [
+"かば",
+"かわ",
+"かな",
+"かあ"
+],
+"answer": 1,
+"explanation": "「川」 dibaca 「かわ」. Artinya sungai."
+},
+{
+"id": "n5-v-005",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "わたしの　学校は　えきの　ちかくに　あります。",
+"underlined": "学校",
+"options": [
+"がこう",
+"がっこう",
+"がっこ",
+"がくこう"
+],
+"answer": 1,
+"explanation": "「学校」 dibaca 「がっこう」. Artinya sekolah (ada 「っ」)."
+},
+{
+"id": "n5-v-006",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "あの　先生は　日本人です。",
+"underlined": "先生",
+"options": [
+"せんせえ",
+"ぜんせい",
+"せんせ",
+"せんせい"
+],
+"answer": 3,
+"explanation": "「先生」 dibaca 「せんせい」. Artinya guru."
+},
+{
+"id": "n5-v-007",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "きのう　父に　電話を　しました。",
+"underlined": "電話",
+"options": [
+"てんわ",
+"でんわ",
+"でんか",
+"でんは"
+],
+"answer": 1,
+"explanation": "「電話」 dibaca 「でんわ」. Artinya telepon."
+},
+{
+"id": "n5-v-008",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "きょうは　天気が　いいです。",
+"underlined": "天気",
+"options": [
+"てんき",
+"てんぎ",
+"てんけ",
+"でんぎ"
+],
+"answer": 0,
+"explanation": "「天気」 dibaca 「てんき」. Artinya cuaca."
+},
+{
+"id": "n5-v-009",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "毎日　日本語を　べんきょうします。",
+"underlined": "毎日",
+"options": [
+"まいじつ",
+"めいにち",
+"まいび",
+"まいにち"
+],
+"answer": 3,
+"explanation": "「毎日」 dibaca 「まいにち」. Artinya setiap hari."
+},
+{
+"id": "n5-v-010",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "かばんの　中に　ほんが　あります。",
+"underlined": "中",
+"options": [
+"なが",
+"なこ",
+"なか",
+"なあ"
+],
+"answer": 2,
+"explanation": "「中」 dibaca 「なか」. Artinya dalam."
+},
+{
+"id": "n5-v-011",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "つめたい　水を　ください。",
+"underlined": "水",
+"options": [
+"みづ",
+"みず",
+"みす",
+"めず"
+],
+"answer": 1,
+"explanation": "「水」 dibaca 「みず」. Artinya air."
+},
+{
+"id": "n5-v-012",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "いま、時間が　ありますか。",
+"underlined": "時間",
+"options": [
+"じかん",
+"じがん",
+"じかい",
+"じっかん"
+],
+"answer": 0,
+"explanation": "「時間」 dibaca 「じかん」. Artinya waktu."
+},
+{
+"id": "n5-v-013",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "あしたは　九時に　おきます。",
+"underlined": "九時",
+"options": [
+"くじ",
+"きゅうじ",
+"くうじ",
+"きゅじ"
+],
+"answer": 0,
+"explanation": "「九時」 dibaca 「くじ」. Artinya pukul sembilan (untuk jam, 「九」 dibaca 「く」)."
+},
+{
+"id": "n5-v-014",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "たんじょうびは　七月です。",
+"underlined": "七月",
+"options": [
+"ななかつ",
+"しちげつ",
+"なながつ",
+"しちがつ"
+],
+"answer": 3,
+"explanation": "「七月」 dibaca 「しちがつ」. Artinya bulan Juli."
+},
+{
+"id": "n5-v-015",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "あの　女の人は　だれですか。",
+"underlined": "女の人",
+"options": [
+"おなんのひと",
+"おんなのにん",
+"じょのひと",
+"おんなのひと"
+],
+"answer": 3,
+"explanation": "「女の人」 dibaca 「おんなのひと」. Artinya perempuan."
+},
+{
+"id": "n5-v-016",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "わたしは　外国で　はたらきたいです。",
+"underlined": "外国",
+"options": [
+"がいごく",
+"がいこく",
+"げいこく",
+"がいくに"
+],
+"answer": 1,
+"explanation": "「外国」 dibaca 「がいこく」. Artinya luar negeri."
+},
+{
+"id": "n5-v-017",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "この　ペンは　百円です。",
+"underlined": "百円",
+"options": [
+"ひゃくえん",
+"ひゃっえん",
+"ぴゃくえん",
+"ひゃくいん"
+],
+"answer": 0,
+"explanation": "「百円」 dibaca 「ひゃくえん」. Artinya 100 yen."
+},
+{
+"id": "n5-v-018",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "午後は　テニスを　します。",
+"underlined": "午後",
+"options": [
+"ごご",
+"ごこ",
+"こうご",
+"ごうご"
+],
+"answer": 0,
+"explanation": "「午後」 dibaca 「ごご」. Artinya sore (setelah tengah hari)."
+},
+{
+"id": "n5-v-019",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "あの　男の人は　わたしの　せんせいです。",
+"underlined": "男の人",
+"options": [
+"おとこのひと",
+"おどこのひと",
+"おとこのにん",
+"だんのひと"
+],
+"answer": 0,
+"explanation": "「男の人」 dibaca 「おとこのひと」. Artinya laki-laki."
+},
+{
+"id": "n5-v-020",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "わたしは　午前は　べんきょうします。",
+"underlined": "午前",
+"options": [
+"ごぜん",
+"ごさん",
+"ごぜい",
+"こぜん"
+],
+"answer": 0,
+"explanation": "「午前」 dibaca 「ごぜん」. Artinya pagi (sebelum tengah hari)."
+},
+{
+"id": "n5-v-021",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "母は　まいあさ　六時に　おきます。",
+"underlined": "母",
+"options": [
+"ほは",
+"はは",
+"はお",
+"ぼは"
+],
+"answer": 1,
+"explanation": "「母」 dibaca 「はは」. Artinya ibu (saya)."
+},
+{
+"id": "n5-v-022",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "ここに　名前を　かいて　ください。",
+"underlined": "名前",
+"options": [
+"なめえ",
+"なまえ",
+"なまい",
+"めいまえ"
+],
+"answer": 1,
+"explanation": "「名前」 dibaca 「なまえ」. Artinya nama."
+},
+{
+"id": "n5-v-023",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "ともだちは　大学で　べんきょうして　います。",
+"underlined": "大学",
+"options": [
+"だいがく",
+"だいかく",
+"だいがっ",
+"たいかく"
+],
+"answer": 0,
+"explanation": "「大学」 dibaca 「だいがく」. Artinya universitas."
+},
+{
+"id": "n5-v-024",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "日本語の　本を　かいました。",
+"underlined": "日本語",
+"options": [
+"にっぽんご",
+"にほんこ",
+"にぽんご",
+"にほんご"
+],
+"answer": 3,
+"explanation": "「日本語」 dibaca 「にほんご」. Artinya bahasa Jepang."
+},
+{
+"id": "n5-v-025",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "左に　まがって　ください。",
+"underlined": "左",
+"options": [
+"さり",
+"ひたり",
+"ひだり",
+"ひだい"
+],
+"answer": 2,
+"explanation": "「左」 dibaca 「ひだり」. Artinya kiri."
+},
+{
+"id": "n5-v-026",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "ぎんこうは　えきの　右に　あります。",
+"underlined": "右",
+"options": [
+"みぐ",
+"にぎ",
+"ぎみ",
+"みぎ"
+],
+"answer": 3,
+"explanation": "「右」 dibaca 「みぎ」. Artinya kanan."
+},
+{
+"id": "n5-v-027",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "つくえの　上に　ペンが　あります。",
+"underlined": "上",
+"options": [
+"あえ",
+"うえ",
+"うい",
+"うへ"
+],
+"answer": 1,
+"explanation": "「上」 dibaca 「うえ」. Artinya atas."
+},
+{
+"id": "n5-v-028",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "いすの　下に　ねこが　います。",
+"underlined": "下",
+"options": [
+"さた",
+"した",
+"ひた",
+"したか"
+],
+"answer": 1,
+"explanation": "「下」 dibaca 「した」. Artinya bawah."
+},
+{
+"id": "n5-v-029",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "ポストは　えきの　前に　あります。",
+"underlined": "前",
+"options": [
+"めえ",
+"まい",
+"まえ",
+"まけ"
+],
+"answer": 2,
+"explanation": "「前」 dibaca 「まえ」. Artinya depan."
+},
+{
+"id": "n5-v-030",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "あそこに　子どもが　います。",
+"underlined": "子ども",
+"options": [
+"こどま",
+"ごども",
+"しども",
+"こども"
+],
+"answer": 3,
+"explanation": "「子ども」 dibaca 「こども」. Artinya anak."
+},
+{
+"id": "n5-v-031",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "この　木は　大きいです。",
+"underlined": "木",
+"options": [
+"き",
+"ぎ",
+"きい",
+"くい"
+],
+"answer": 0,
+"explanation": "「木」 dibaca 「き」. Artinya pohon."
+},
+{
+"id": "n5-v-032",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "火よう日は　しごとが　あります。",
+"underlined": "火よう日",
+"options": [
+"かようび",
+"ひようび",
+"かよび",
+"かようひ"
+],
+"answer": 0,
+"explanation": "「火よう日」 dibaca 「かようび」. Artinya hari Selasa."
+},
+{
+"id": "n5-v-033",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "三月に　日本へ　いきます。",
+"underlined": "三月",
+"options": [
+"さんかつ",
+"さんがっ",
+"ざんがつ",
+"さんがつ"
+],
+"answer": 3,
+"explanation": "「三月」 dibaca 「さんがつ」. Artinya bulan Maret."
+},
+{
+"id": "n5-v-034",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "この　シャツは　千円です。",
+"underlined": "千円",
+"options": [
+"ぜんえん",
+"せんいん",
+"せんえん",
+"せいえん"
+],
+"answer": 2,
+"explanation": "「千円」 dibaca 「せんえん」. Artinya 1.000 yen."
+},
+{
+"id": "n5-v-035",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "十日に　テストが　あります。",
+"underlined": "十日",
+"options": [
+"じゅうにち",
+"とうか",
+"とおにち",
+"とおか"
+],
+"answer": 3,
+"explanation": "「十日」 dibaca 「とおか」. Artinya tanggal 10."
+},
+{
+"id": "n5-v-036",
+"level": "N5",
+"section": "vocab",
+"mondai": 1,
+"question": "白い　かさを　かいました。",
+"underlined": "白い",
+"options": [
+"しろい",
+"しらい",
+"はくい",
+"しるい"
+],
+"answer": 0,
+"explanation": "「白い」 dibaca 「しろい」. Artinya putih."
+},
+{
+"id": "n5-v-037",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "あしたは　でんしゃで　かいしゃへ　いきます。",
+"underlined": "でんしゃ",
+"options": [
+"電者",
+"雷車",
+"電車",
+"電東"
+],
+"answer": 2,
+"explanation": "「でんしゃ」 = 「電車」 (kereta listrik)."
+},
+{
+"id": "n5-v-038",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "ちちは　あたらしい　くるまを　かいました。",
+"underlined": "くるま",
+"options": [
+"軍",
+"連",
+"車",
+"庫"
+],
+"answer": 2,
+"explanation": "「くるま」 = 「車」 (mobil)."
+},
+{
+"id": "n5-v-039",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "たいようは　ひがしから　でます。",
+"underlined": "ひがし",
+"options": [
+"束",
+"東",
+"更",
+"来"
+],
+"answer": 1,
+"explanation": "「ひがし」 = 「東」 (timur)."
+},
+{
+"id": "n5-v-040",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "ホテルは　えきの　みなみに　あります。",
+"underlined": "みなみ",
+"options": [
+"商",
+"啇",
+"南",
+"両"
+],
+"answer": 2,
+"explanation": "「みなみ」 = 「南」 (selatan)."
+},
+{
+"id": "n5-v-041",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "ぎんこうは　えきの　きたに　あります。",
+"underlined": "きた",
+"options": [
+"北",
+"比",
+"兆",
+"化"
+],
+"answer": 0,
+"explanation": "「きた」 = 「北」 (utara)."
+},
+{
+"id": "n5-v-042",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "きのうは　あめが　ふりました。",
+"underlined": "あめ",
+"options": [
+"雨",
+"両",
+"雪",
+"雲"
+],
+"answer": 0,
+"explanation": "「あめ」 = 「雨」 (hujan)."
+},
+{
+"id": "n5-v-043",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "ちちは　かいしゃいんです。",
+"underlined": "ちち",
+"options": [
+"父",
+"交",
+"文",
+"夫"
+],
+"answer": 0,
+"explanation": "「ちち」 = 「父」 (ayah saya)."
+},
+{
+"id": "n5-v-044",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "コンビニは　ひだりに　あります。",
+"underlined": "ひだり",
+"options": [
+"右",
+"在",
+"佐",
+"左"
+],
+"answer": 3,
+"explanation": "「ひだり」 = 「左」 (kiri; 「右」 dibaca 「みぎ」)."
+},
+{
+"id": "n5-v-045",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "きょうは　がっこうを　やすみます。",
+"underlined": "やすみます",
+"options": [
+"休みます",
+"体みます",
+"伏みます",
+"林みます"
+],
+"answer": 0,
+"explanation": "「やすみます」 = 「休みます」 (libur/istirahat)."
+},
+{
+"id": "n5-v-046",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "まいばん　ほんを　よみます。",
+"underlined": "よみます",
+"options": [
+"続みます",
+"説みます",
+"読みます",
+"談みます"
+],
+"answer": 2,
+"explanation": "「よみます」 = 「読みます」 (membaca)."
+},
+{
+"id": "n5-v-047",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "この　かばんは　たかいです。",
+"underlined": "たかい",
+"options": [
+"亭い",
+"享い",
+"局い",
+"高い"
+],
+"answer": 3,
+"explanation": "「たかい」 = 「高い」 (mahal/tinggi)."
+},
+{
+"id": "n5-v-048",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "ともだちと　日本語で　はなします。",
+"underlined": "はなします",
+"options": [
+"話します",
+"語します",
+"読します",
+"詰します"
+],
+"answer": 0,
+"explanation": "「はなします」 = 「話します」 (berbicara)."
+},
+{
+"id": "n5-v-049",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "こうえんは　えきの　にしに　あります。",
+"underlined": "にし",
+"options": [
+"西",
+"酉",
+"茜",
+"四"
+],
+"answer": 0,
+"explanation": "「にし」 = 「西」 (barat)."
+},
+{
+"id": "n5-v-050",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "まいあさ　ラジオを　ききます。",
+"underlined": "ききます",
+"options": [
+"聞きます",
+"間きます",
+"開きます",
+"問きます"
+],
+"answer": 0,
+"explanation": "「ききます」 = 「聞きます」 (mendengar)."
+},
+{
+"id": "n5-v-051",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "ともだちに　てがみを　かきます。",
+"underlined": "かきます",
+"options": [
+"画きます",
+"書きます",
+"昼きます",
+"害きます"
+],
+"answer": 1,
+"explanation": "「かきます」 = 「書きます」 (menulis)."
+},
+{
+"id": "n5-v-052",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "あさ　パンを　たべます。",
+"underlined": "たべます",
+"options": [
+"飲べます",
+"食べます",
+"良べます",
+"倉べます"
+],
+"answer": 1,
+"explanation": "「たべます」 = 「食べます」 (makan)."
+},
+{
+"id": "n5-v-053",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "しろい　ねこが　います。",
+"underlined": "しろい",
+"options": [
+"白い",
+"百い",
+"自い",
+"臼い"
+],
+"answer": 0,
+"explanation": "「しろい」 = 「白い」 (putih)."
+},
+{
+"id": "n5-v-054",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "この　えんぴつは　ながいです。",
+"underlined": "ながい",
+"options": [
+"張い",
+"辰い",
+"帳い",
+"長い"
+],
+"answer": 3,
+"explanation": "「ながい」 = 「長い」 (panjang)."
+},
+{
+"id": "n5-v-055",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "ともだちは　おとこの　こです。",
+"underlined": "おとこ",
+"options": [
+"勇",
+"舅",
+"界",
+"男"
+],
+"answer": 3,
+"explanation": "「おとこ」 = 「男」 (laki-laki)."
+},
+{
+"id": "n5-v-056",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "あの　おんなの　こは　わたしの　いもうとです。",
+"underlined": "おんな",
+"options": [
+"如",
+"好",
+"奴",
+"女"
+],
+"answer": 3,
+"explanation": "「おんな」 = 「女」 (perempuan)."
+},
+{
+"id": "n5-v-057",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "ははは　りょうりが　じょうずです。",
+"underlined": "はは",
+"options": [
+"毎",
+"毋",
+"貫",
+"母"
+],
+"answer": 3,
+"explanation": "「はは」 = 「母」 (ibu saya)."
+},
+{
+"id": "n5-v-058",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "いま、ひまですか。",
+"underlined": "いま",
+"options": [
+"今",
+"令",
+"会",
+"命"
+],
+"answer": 0,
+"explanation": "「いま」 = 「今」 (sekarang)."
+},
+{
+"id": "n5-v-059",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "にほんへ　いきたいです。",
+"underlined": "にほん",
+"options": [
+"日木",
+"日本",
+"曰本",
+"目本"
+],
+"answer": 1,
+"explanation": "「にほん」 = 「日本」 (Jepang)."
+},
+{
+"id": "n5-v-060",
+"level": "N5",
+"section": "vocab",
+"mondai": 2,
+"question": "ことしの　なつは　あついです。",
+"underlined": "ことし",
+"options": [
+"令年",
+"今午",
+"今年",
+"今牛"
+],
+"answer": 2,
+"explanation": "「ことし」 = 「今年」 (tahun ini)."
+},
+{
+"id": "n5-v-061",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "きょうは　あついですから、（　）を　あけます。",
+"options": [
+"かさ",
+"くつ",
+"まど",
+"いす"
+],
+"answer": 2,
+"explanation": "「まど」 = jendela. 「まどを　あけます」 = membuka jendela."
+},
+{
+"id": "n5-v-062",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "わたしは　あさ　コーヒーを　（　）。",
+"options": [
+"のみます",
+"たべます",
+"みます",
+"よみます"
+],
+"answer": 0,
+"explanation": "Kopi diminum: 「のみます」."
+},
+{
+"id": "n5-v-063",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "へやが　くらいですから、でんきを　（　）ください。",
+"options": [
+"あけて",
+"しめて",
+"つけて",
+"かけて"
+],
+"answer": 2,
+"explanation": "「でんきを　つけます」 = menyalakan lampu."
+},
+{
+"id": "n5-v-064",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "この　かばんは　とても　（　）ですから、もてません。",
+"options": [
+"かるい",
+"ちいさい",
+"おもい",
+"あたらしい"
+],
+"answer": 2,
+"explanation": "「おもい」 = berat. Karena berat, tidak bisa dibawa."
+},
+{
+"id": "n5-v-065",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "あしたは　日よう日ですから、かいしゃを　（　）。",
+"options": [
+"やすみます",
+"かえります",
+"いきます",
+"つきます"
+],
+"answer": 0,
+"explanation": "Hari Minggu, jadi 「かいしゃを　やすみます」 = libur kerja."
+},
+{
+"id": "n5-v-066",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "えきで　きっぷを　（　）。",
+"options": [
+"のりました",
+"あいました",
+"はいりました",
+"かいました"
+],
+"answer": 3,
+"explanation": "「きっぷを　かいます」 = membeli tiket."
+},
+{
+"id": "n5-v-067",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "あの　みせの　りょうりは　（　）です。",
+"options": [
+"おいしい",
+"おもしろい",
+"ひろい",
+"あかるい"
+],
+"answer": 0,
+"explanation": "「おいしい」 = enak. Cocok untuk 「りょうり」 (masakan)."
+},
+{
+"id": "n5-v-068",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "りんごを　三（　）かいました。",
+"options": [
+"ほん",
+"こ",
+"まい",
+"さつ"
+],
+"answer": 1,
+"explanation": "Apel dihitung dengan 「こ」: 「三こ」."
+},
+{
+"id": "n5-v-069",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "この　へやには　つくえが　二（　）あります。",
+"options": [
+"さつ",
+"だい",
+"ほん",
+"まい"
+],
+"answer": 1,
+"explanation": "Meja dihitung dengan 「だい」: 「二だい」."
+},
+{
+"id": "n5-v-070",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "テレビを　（　）から、ねます。",
+"options": [
+"けして",
+"つけて",
+"あけて",
+"かいて"
+],
+"answer": 0,
+"explanation": "「テレビを　けします」 = mematikan TV sebelum tidur."
+},
+{
+"id": "n5-v-071",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "いもうとは　ピアノが　（　）です。",
+"options": [
+"じょうず",
+"げんき",
+"ひま",
+"いそがしい"
+],
+"answer": 0,
+"explanation": "「じょうず」 = pandai. 「ピアノが　じょうずです」."
+},
+{
+"id": "n5-v-072",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "あした　テストが　ありますから、いま　（　）して　います。",
+"options": [
+"べんきょう",
+"さんぽ",
+"りょうり",
+"せんたく"
+],
+"answer": 0,
+"explanation": "Ada tes besok, jadi sekarang 「べんきょうして　います」 (belajar)."
+},
+{
+"id": "n5-v-073",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "そとは　あめが　（　）　います。",
+"options": [
+"いって",
+"きいて",
+"つけて",
+"ふって"
+],
+"answer": 3,
+"explanation": "「あめが　ふって　います」 = sedang hujan."
+},
+{
+"id": "n5-v-074",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "ちちは　まいあさ　しんぶんを　（　）から、ごはんを　たべます。",
+"options": [
+"のんで",
+"ねて",
+"あらって",
+"よんで"
+],
+"answer": 3,
+"explanation": "「しんぶんを　よみます」 = membaca koran. Bentuk-te: 「よんで」."
+},
+{
+"id": "n5-v-075",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "あついですから、つめたい　（　）を　ください。",
+"options": [
+"くつ",
+"みず",
+"えんぴつ",
+"かさ"
+],
+"answer": 1,
+"explanation": "「つめたい　みず」 = air dingin. Hanya 「みず」 yang bisa diminta saat panas."
+},
+{
+"id": "n5-v-076",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "かぜを　ひきましたから、びょういんへ　（　）。",
+"options": [
+"ききます",
+"いきます",
+"かきます",
+"あびます"
+],
+"answer": 1,
+"explanation": "Masuk angin, jadi 「びょういんへ　いきます」 = pergi ke rumah sakit."
+},
+{
+"id": "n5-v-077",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "この　まちは　ひとが　おおいですから、とても　（　）です。",
+"options": [
+"しずか",
+"すずしい",
+"あたらしい",
+"にぎやか"
+],
+"answer": 3,
+"explanation": "Banyak orang berarti 「にぎやか」 (ramai)."
+},
+{
+"id": "n5-v-078",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "わたしは　ペンで　なまえを　（　）。",
+"options": [
+"よみます",
+"かきます",
+"ききます",
+"あけます"
+],
+"answer": 1,
+"explanation": "Menulis nama dengan pena: 「かきます」."
+},
+{
+"id": "n5-v-079",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "あしたは　ともだちの　たんじょうびですから、プレゼントを　（　）。",
+"options": [
+"のみます",
+"かいます",
+"ききます",
+"あびます"
+],
+"answer": 1,
+"explanation": "「プレゼントを　かいます」 = membeli hadiah."
+},
+{
+"id": "n5-v-080",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "この　にもつは　（　）ですから、ひとりで　もてます。",
+"options": [
+"おもい",
+"ふるい",
+"ひろい",
+"かるい"
+],
+"answer": 3,
+"explanation": "「かるい」 = ringan. Bisa dibawa sendiri."
+},
+{
+"id": "n5-v-081",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "えきまで　くるまで　二じかんです。えきは　とても　（　）です。",
+"options": [
+"ちかい",
+"せまい",
+"ひろい",
+"とおい"
+],
+"answer": 3,
+"explanation": "Dua jam naik mobil berarti 「とおい」 (jauh)."
+},
+{
+"id": "n5-v-082",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "テレビで　サッカーを　（　）。",
+"options": [
+"みます",
+"のみます",
+"あけます",
+"あびます"
+],
+"answer": 0,
+"explanation": "「サッカーを　みます」 = menonton sepak bola."
+},
+{
+"id": "n5-v-083",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "つくえの　上に　本が　三（　）　あります。",
+"options": [
+"まい",
+"だい",
+"こ",
+"さつ"
+],
+"answer": 3,
+"explanation": "Buku dihitung dengan 「さつ」: 「三さつ」."
+},
+{
+"id": "n5-v-084",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "かみが　五（　）　あります。",
+"options": [
+"さつ",
+"ほん",
+"だい",
+"まい"
+],
+"answer": 3,
+"explanation": "Kertas dihitung dengan 「まい」: 「五まい」."
+},
+{
+"id": "n5-v-085",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "えんぴつが　二（　）　あります。",
+"options": [
+"まい",
+"ほん",
+"さつ",
+"だい"
+],
+"answer": 1,
+"explanation": "Benda panjang dan ramping dihitung dengan 「ほん」: 「二ほん」."
+},
+{
+"id": "n5-v-086",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "ここに　車を　（　）　ください。",
+"options": [
+"とめて",
+"あけて",
+"しめて",
+"ひいて"
+],
+"answer": 0,
+"explanation": "「くるまを　とめます」 = memarkir/menghentikan mobil."
+},
+{
+"id": "n5-v-087",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "もう　十二時です。そろそろ　ひるごはんを　（　）。",
+"options": [
+"ねましょう",
+"あびましょう",
+"たべましょう",
+"おきましょう"
+],
+"answer": 2,
+"explanation": "「ひるごはん」 = makan siang, jadi 「たべましょう」."
+},
+{
+"id": "n5-v-088",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "まいばん　シャワーを　（　）から、ねます。",
+"options": [
+"のんで",
+"かいて",
+"あびて",
+"きいて"
+],
+"answer": 2,
+"explanation": "「シャワーを　あびます」 = mandi dengan shower."
+},
+{
+"id": "n5-v-089",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "この　えいがは　とても　（　）です。わたしは　二かい　みました。",
+"options": [
+"おもしろい",
+"ひくい",
+"せまい",
+"ひろい"
+],
+"answer": 0,
+"explanation": "Ditonton dua kali berarti 「おもしろい」 (seru)."
+},
+{
+"id": "n5-v-090",
+"level": "N5",
+"section": "vocab",
+"mondai": 3,
+"question": "わたしは　まいあさ　七時に　うちを　（　）。",
+"options": [
+"はいります",
+"でます",
+"のります",
+"あいます"
+],
+"answer": 1,
+"explanation": "「うちを　でます」 = keluar rumah."
+},
+{
+"id": "n5-v-091",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "ここは　しずかです。",
+"underlined": "しずか",
+"options": [
+"ここは　ひろくないです。",
+"ここは　うるさくないです。",
+"ここは　あかるくないです。",
+"ここは　きれいではないです。"
+],
+"answer": 1,
+"explanation": "「しずか」 = tenang, sama dengan 「うるさくない」 (tidak berisik)."
+},
+{
+"id": "n5-v-092",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "この　くつは　ちいさいです。",
+"underlined": "ちいさい",
+"options": [
+"この　くつは　おおきいです。",
+"この　くつは　あたらしいです。",
+"この　くつは　やすいです。",
+"この　くつは　おおきくないです。"
+],
+"answer": 3,
+"explanation": "「ちいさい」 = kecil, mirip 「おおきくない」 (tidak besar)."
+},
+{
+"id": "n5-v-093",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "きのうは　ひまでした。",
+"underlined": "ひま",
+"options": [
+"きのうは　いそがしくなかったです。",
+"きのうは　さむくなかったです。",
+"きのうは　あつくなかったです。",
+"きのうは　ひろくなかったです。"
+],
+"answer": 0,
+"explanation": "「ひま」 = senggang, mirip 「いそがしくない」 (tidak sibuk)."
+},
+{
+"id": "n5-v-094",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "ははは　びょうきです。",
+"underlined": "びょうき",
+"options": [
+"ははは　げんきでは　ありません。",
+"ははは　いそがしくありません。",
+"ははは　しずかでは　ありません。",
+"ははは　にぎやかでは　ありません。"
+],
+"answer": 0,
+"explanation": "「びょうき」 = sakit, mirip 「げんきではない」 (tidak sehat)."
+},
+{
+"id": "n5-v-095",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "あしたは　やすみです。",
+"underlined": "やすみ",
+"options": [
+"あしたは　しごとが　あります。",
+"あしたは　しごとが　ありません。",
+"あしたは　テストが　あります。",
+"あしたは　かいものが　あります。"
+],
+"answer": 1,
+"explanation": "「やすみ」 = libur, artinya tidak ada pekerjaan."
+},
+{
+"id": "n5-v-096",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "この　かさは　わたしのです。",
+"underlined": "わたしのです",
+"options": [
+"これは　あなたの　かさです。",
+"これは　わたしの　かさです。",
+"これは　ともだちの　かさです。",
+"これは　せんせいの　かさです。"
+],
+"answer": 1,
+"explanation": "「わたしのです」 = milik saya. Sama dengan 「わたしの　かさです」."
+},
+{
+"id": "n5-v-097",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "この　まちは　にぎやかです。",
+"underlined": "にぎやか",
+"options": [
+"この　まちは　ひろくありません。",
+"この　まちは　あたらしくありません。",
+"この　まちは　きれいでは　ありません。",
+"この　まちは　しずかでは　ありません。"
+],
+"answer": 3,
+"explanation": "「にぎやか」 = ramai, mirip 「しずかではない」 (tidak tenang)."
+},
+{
+"id": "n5-v-098",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "おとといは　月よう日でした。",
+"underlined": "おととい",
+"options": [
+"きょうは　火よう日です。",
+"きょうは　木よう日です。",
+"きょうは　水よう日です。",
+"きょうは　金よう日です。"
+],
+"answer": 2,
+"explanation": "「おととい」 = dua hari lalu. Senin dua hari lalu, jadi hari ini Rabu."
+},
+{
+"id": "n5-v-099",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "らいしゅうの　日よう日に　いきます。",
+"underlined": "らいしゅう",
+"options": [
+"つぎの　しゅうの　日よう日に　いきます。",
+"この　しゅうの　日よう日に　いきます。",
+"せんしゅうの　日よう日に　いきます。",
+"まいしゅう　日よう日に　いきます。"
+],
+"answer": 0,
+"explanation": "「らいしゅう」 = minggu depan = 「つぎの　しゅう」."
+},
+{
+"id": "n5-v-100",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "わたしの　あねは　大学生です。",
+"underlined": "あね",
+"options": [
+"わたしの　おにいさんは　大学生です。",
+"わたしの　いもうとは　大学生です。",
+"わたしの　おねえさんは　大学生です。",
+"わたしの　おとうとは　大学生です。"
+],
+"answer": 2,
+"explanation": "「あね」 = kakak perempuan saya = 「おねえさん」."
+},
+{
+"id": "n5-v-101",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "この　かばんは　やすいです。",
+"underlined": "やすい",
+"options": [
+"この　かばんは　ふるくないです。",
+"この　かばんは　おもくないです。",
+"この　かばんは　たかくないです。",
+"この　かばんは　おおきくないです。"
+],
+"answer": 2,
+"explanation": "「やすい」 = murah, mirip 「たかくない」 (tidak mahal)."
+},
+{
+"id": "n5-v-102",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "この　しごとは　かんたんです。",
+"underlined": "かんたん",
+"options": [
+"この　しごとは　あたらしくないです。",
+"この　しごとは　ながくないです。",
+"この　しごとは　おもしろくないです。",
+"この　しごとは　むずかしくないです。"
+],
+"answer": 3,
+"explanation": "「かんたん」 = mudah, mirip 「むずかしくない」 (tidak sulit)."
+},
+{
+"id": "n5-v-103",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "この　へやは　ひろいです。",
+"underlined": "ひろい",
+"options": [
+"この　へやは　せまくないです。",
+"この　へやは　あかるくないです。",
+"この　へやは　きれいではないです。",
+"この　へやは　あたらしくないです。"
+],
+"answer": 0,
+"explanation": "「ひろい」 = luas, mirip 「せまくない」 (tidak sempit)."
+},
+{
+"id": "n5-v-104",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "きのうは　日よう日でした。",
+"underlined": "きのう",
+"options": [
+"きょうは　月よう日です。",
+"きょうは　火よう日です。",
+"きょうは　水よう日です。",
+"きょうは　土よう日です。"
+],
+"answer": 0,
+"explanation": "「きのう」 = kemarin. Kemarin Minggu, jadi hari ini Senin."
+},
+{
+"id": "n5-v-105",
+"level": "N5",
+"section": "vocab",
+"mondai": 4,
+"question": "ここは　あかるいです。",
+"underlined": "あかるい",
+"options": [
+"ここは　くらくないです。",
+"ここは　ひろくないです。",
+"ここは　あつくないです。",
+"ここは　あたらしくないです。"
+],
+"answer": 0,
+"explanation": "「あかるい」 = terang, mirip 「くらくない」 (tidak gelap)."
+}
+]
