@@ -86,8 +86,7 @@
           "min": 40,
           "files": [
             "n5-grammar.json",
-            "n5-reading.json",
-            "n5-reading-mondai6-extra.json"
+            "n5-reading.json"
           ],
           "m": [
             [
