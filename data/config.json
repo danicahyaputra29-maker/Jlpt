@@ -13,7 +13,7 @@
 "levels":{
 "N5":{"pass":80,"min1":38,"sections":[
 {"id":"vocab","name":"文字・語彙","min":20,"files":["n5-vocab.json"],"m":[[1,12,"kanji"],[2,8,"hyouki"],[3,10,"bunmyaku"],[4,5,"iikae"]]},
-{"id":"bunpo","name":"文法・読解","min":40,"files":["n5-grammar.json","n5-reading.json"],"m":[[1,16,"bunpo"],[2,5,"kumitate"],[3,5,"bunsho"],[4,3,"tanbun"],[5,2,"chubun"],[6,1,"joho"]]}]},
+{"id":"bunpo","name":"文法・読解","min":40,"files":["n5-grammar.json","n5-reading.json","n5-reading-mondai6-extra.json"],"m":[[1,16,"bunpo"],[2,5,"kumitate"],[3,5,"bunsho"],[4,3,"tanbun"],[5,2,"chubun"],[6,9,"joho"]]}]},
 "N4":{"pass":90,"min1":38,"sections":[
 {"id":"vocab","name":"文字・語彙","min":25,"files":["n4-vocab.json"],"m":[[1,9,"kanji"],[2,6,"hyouki"],[3,10,"bunmyaku"],[4,5,"iikae"],[5,5,"yoohou"]]},
 {"id":"bunpo","name":"文法・読解","min":55,"files":["n4-grammar.json","n4-reading.json"],"m":[[1,15,"bunpo"],[2,5,"kumitate"],[3,5,"bunsho"],[4,4,"tanbun"],[5,4,"chubun"],[6,2,"joho"]]}]}}}
