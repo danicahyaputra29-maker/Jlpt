@@ -5,7 +5,7 @@ function esc(t){return String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'
 function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
 function get(u){if(window.JLPT_DATA&&JLPT_DATA[u])return Promise.resolve(JLPT_DATA[u]);return fetch(u,{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()})}
 function load(files){return Promise.all(files.map(function(f){return BANK[f]?BANK[f]:get('data/'+f).then(function(d){return BANK[f]=d})})).then(function(r){return [].concat.apply([],r)})}
-function show(h){app.innerHTML=h;window.scrollTo(0,0)}
+function show(h,preserveScroll){var y=window.pageYOffset||document.documentElement.scrollTop||document.body.scrollTop||0;app.innerHTML=h;window.scrollTo(0,preserveScroll?y:0)}
 function btn(t,a,c){return '<button class="b '+(c||'')+'" data-a="'+a+'">'+t+'</button>'}
 function hist(){try{return JSON.parse(localStorage.getItem('jlpt_h')||'[]')}catch(e){return []}}
 function fmt(q){var t=esc(q.question);if(q.underlined){var u=esc(q.underlined);t=t.replace(u,'<u>'+u+'</u>')}return t}
@@ -75,7 +75,7 @@ h+='</div></section>';
 h+=btn('Soal berikutnya','knexttest','pri');
 show(h)
 }
-function kpick(type,id){if(type==='reading')K.selectedReading=id;else K.selectedMeaning=+id;ktest()}
+function kpick(type,id){if(type==='reading')K.selectedReading=id;else K.selectedMeaning=+id;ktest(true)}
 function knexttest(){
 if(K.selectedReading==null||K.selectedMeaning==null){alert('Pilih satu jawaban untuk bacaan dan satu jawaban untuk arti.');return}
 var x=K.questions[K.i];
