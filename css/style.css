@@ -168,3 +168,78 @@ h1{font-size:26px;margin:8px 0}h2{font-size:21px}h3{font-size:17px;margin:22px 0
  .home-choice-copy strong{font-size:15px}
  .home-choice-copy small{font-size:10px}
 }
+
+
+/* JLPT pages: visual system aligned with the JFT dashboard */
+.jlpt-page{color:var(--ink)}
+.jlpt-page h1,.jlpt-page h2,.jlpt-page h3{color:var(--ink)}
+.jlpt-dashboard,.jlpt-menu{padding-top:4px}
+.jlpt-hero,.jlpt-menu-hero{position:relative;isolation:isolate;overflow:hidden;border-radius:20px;padding:23px 21px;margin:4px 0 25px;background:linear-gradient(130deg,#173c58,#286889);color:#fff}
+.jlpt-hero:after{content:"日本";position:absolute;z-index:-1;right:8px;bottom:-28px;color:#ffffff12;font-size:104px;font-weight:900;letter-spacing:-10px;line-height:1}
+.jlpt-eyebrow{color:#b9d9ec;font-size:10px;font-weight:800;letter-spacing:2px}
+.jlpt-hero h1,.jlpt-menu-hero h1{margin:9px 0 5px;color:#fff;font-size:29px;line-height:1.2}
+.jlpt-hero p,.jlpt-menu-hero p{max-width:290px;margin:0;color:#dceaf3;font-size:14px}
+.jlpt-hero-meta{display:flex;align-items:baseline;gap:10px;margin-top:19px}
+.jlpt-hero-meta strong{font-size:27px;color:#fff}
+.jlpt-hero-meta span{font-size:12px;color:#d4e6f1}
+.jlpt-section-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin:23px 2px 11px}
+.jlpt-section-head h2{margin:0;font-size:19px}
+.jlpt-section-head>span{color:var(--mut);font-size:11px}
+.jlpt-level-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.jlpt-level-card{position:relative;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;min-height:105px;overflow:hidden;padding:15px;border:1px solid var(--ln);border-radius:15px;background:var(--card);color:var(--ink);text-align:left}
+.jlpt-level-card:first-child{background:linear-gradient(135deg,#245e88,#347eaa);border-color:#347eaa;color:#fff}
+.jlpt-level-number{font-size:28px;font-weight:800;line-height:1.15}
+.jlpt-level-caption{margin-top:5px;font-size:11px;color:var(--mut)}
+.jlpt-level-card:first-child .jlpt-level-caption{color:#d8eaf5}
+.jlpt-level-index{position:absolute;right:12px;bottom:9px;color:var(--mut);font-size:10px;opacity:.65}
+.jlpt-level-card:first-child .jlpt-level-index{color:#fff}
+.jlpt-note{display:flex;align-items:flex-start;gap:10px;margin:17px 1px 24px;padding:12px 13px;border:1px solid var(--ln);border-radius:12px;background:var(--card)}
+.jlpt-note-icon{display:grid;place-items:center;flex:0 0 21px;width:21px;height:21px;border-radius:50%;background:color-mix(in srgb,var(--ac) 18%,var(--card));color:var(--ac);font-size:12px;font-weight:800}
+.jlpt-note p{margin:0;color:var(--mut);font-size:12px;line-height:1.5}
+.jlpt-history{margin:22px 0}
+.jlpt-history-list{overflow:hidden;border:1px solid var(--ln);border-radius:14px;background:var(--card)}
+.jlpt-history-item{display:grid;grid-template-columns:48px 1fr auto;align-items:center;gap:5px 10px;padding:12px 13px;border-bottom:1px solid var(--ln)}
+.jlpt-history-item:last-child{border-bottom:0}
+.jlpt-history-level{grid-row:span 2;display:grid;place-items:center;min-height:38px;border-radius:9px;background:color-mix(in srgb,var(--ac) 16%,var(--card));color:var(--ac);font-weight:800}
+.jlpt-history-date{color:var(--mut);font-size:11px}
+.jlpt-history-item strong{grid-column:3;grid-row:1/3;color:var(--ac);font-size:18px}
+.jlpt-history-item small{grid-column:2;color:var(--mut);font-size:10px}
+.jlpt-back{margin-top:14px}
+.jlpt-menu-hero{margin-bottom:16px;padding:20px}
+.jlpt-menu-hero h1{font-size:32px}
+.jlpt-full-button{min-height:60px!important;margin:0 0 19px!important;padding:15px 17px!important;border-radius:14px!important;background:linear-gradient(110deg,#367eae,#69a8d3)!important;border-color:transparent!important;color:#102b3b!important;font-weight:800!important}
+.jlpt-section-grid{display:grid;gap:14px}
+.jlpt-section-card{padding:15px 13px;border:1px solid var(--ln);border-radius:16px;background:var(--card)}
+.jlpt-section-card-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 1px 11px}
+.jlpt-section-kicker{color:var(--mut);font-size:9px;font-weight:800;letter-spacing:1.5px}
+.jlpt-section-card-head h2{margin:2px 0 0;font-size:17px}
+.jlpt-duration{flex:0 0 auto;padding:5px 9px;border-radius:20px;background:color-mix(in srgb,var(--ac) 15%,var(--card));color:var(--ac);font-size:11px;font-weight:700}
+.jlpt-section-all{min-height:45px!important;margin:0 0 10px!important;border-radius:10px!important;background:color-mix(in srgb,var(--ac) 12%,var(--card))!important;border-color:color-mix(in srgb,var(--ac) 30%,var(--ln))!important;color:var(--ink)!important;font-size:14px!important;font-weight:700!important}
+.jlpt-mondai-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+.jlpt-mondai{display:flex;align-items:center;gap:7px;min-width:0;min-height:49px;padding:8px 9px;border:1px solid var(--ln);border-radius:10px;background:var(--bg);color:var(--ink);text-align:left;font:inherit}
+.jlpt-mondai span{flex:0 0 auto;color:var(--ac);font-size:11px;font-weight:800}
+.jlpt-mondai strong{min-width:0;overflow-wrap:anywhere;font-size:11px;font-weight:600;line-height:1.3}
+.jlpt-mondai i{margin-left:auto;color:var(--ac);font-size:19px;font-style:normal}
+.jlpt-exam{padding-top:0}
+.jlpt-exam-bar{margin:0 0 14px;padding:8px 0}
+.jlpt-exam-bar>b{font-size:16px}
+.jlpt-exam-bar #t{padding:4px 9px;border-radius:8px;background:color-mix(in srgb,var(--ac) 14%,var(--card));font-size:16px}
+.jlpt-exam>h3{margin:23px 0 4px;color:var(--ac);font-size:18px}
+.jlpt-exam .ins{margin-bottom:12px;font-size:13px;line-height:1.5}
+.jlpt-exam .q{padding:14px;margin:12px 0;border-radius:14px}
+.jlpt-exam .n{font-size:12px;font-weight:700}
+.jlpt-exam .ps{margin:9px 0;padding:7px 0 7px 12px;border-left:3px solid var(--ac);line-height:1.7}
+.jlpt-exam .qt{margin:9px 0 13px;font-size:18px;line-height:1.75}
+.jlpt-exam .op{min-height:52px;margin:7px 0;padding:9px 11px;border-radius:11px;line-height:1.5}
+.jlpt-exam .op:has(input:checked){border-color:var(--ac);background:color-mix(in srgb,var(--ac) 10%,var(--card))}
+.jlpt-submit{margin:18px 0 26px!important;min-height:54px!important;border-radius:13px!important}
+.jlpt-result .sc{margin:15px 0;font-size:42px}
+.jlpt-result .rv{padding:14px;border-radius:13px}
+@media(max-width:390px){
+ .jlpt-hero{padding:20px 17px}
+ .jlpt-level-card{min-height:94px;padding:12px}
+ .jlpt-section-card{padding:12px 10px}
+ .jlpt-mondai{gap:5px;padding:7px}
+ .jlpt-mondai span,.jlpt-mondai strong{font-size:10px}
+ .jlpt-exam .q{padding:12px}
+}
