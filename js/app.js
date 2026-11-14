@@ -47,7 +47,7 @@ h+='</div><div class="k-section-title"><h3>Mulai belajar</h3><span>'+(K.level===
 function kLoad(){return get('data/jft-kanji.json').then(function(a){K.items=a;K.pool=a.slice();kanjiHome()})}
 function kstart(mode){K.mode=mode;K.pool=shuffle(K.items.filter(function(x){return K.level==='Semua'||x.level===K.level}));K.i=0;K.shown=false;K.answers=[];if(mode==='test'){K.questions=K.pool.slice(0,Math.min(10,K.pool.length));ktest()}else kcard()}
 function kcard(){var x=K.pool[K.i];if(!x){kanjiHome();return}var pct=Math.round(K.i/K.pool.length*100);var h='<div class="bar"><b>Flashcard</b><button class="x" data-a="khome">✕</button></div><div class="k-progress-head"><span>'+x.level+'</span><strong>'+(K.i+1)+' / '+K.pool.length+'</strong></div><div class="k-progress"><i style="width:'+pct+'%"></i></div><div class="kanji-card"><span class="k-card-label">Apa arti kosakata ini?</span><div class="kanji-word">'+esc(x.word)+'</div>';
-if(K.shown)h+='<div class="kanji-answer"><span>'+esc(x.reading)+'</span><strong>'+esc(x.meaning)+'</strong></div>';h+='</div>';
+if(K.shown)h+='<div class="kanji-answer"><span>'+esc((x.readings&&x.readings.length)?x.readings.join('・'):x.reading)+'</span><strong>'+esc(x.meaning)+'</strong></div>';h+='</div>';
 if(!K.shown)h+=btn('Tampilkan bacaan & arti','kreveal','pri');else h+='<div class="k-card-actions">'+btn('Sudah hafal','knext','pri')+btn('Belum hafal','kagain')+'</div>';
 h+=btn('Kembali ke materi','khome');show(h)}
 function ktest(){
@@ -59,25 +59,25 @@ show(h+btn('Tes lagi','kstart|test','pri')+btn('Kembali','khome'));return
 }
 if(!K.readingOpts||K.currentId!==x.id){
 K.currentId=x.id;
-K.readingOpts=shuffle([x].concat(shuffle(K.items.filter(function(y){return y.id!==x.id&&y.reading!==x.reading})).slice(0,3)));
+var correctReadings=(x.readings&&x.readings.length)?x.readings:[x.reading];\nvar readingPool=[];K.items.forEach(function(y){var rs=(y.readings&&y.readings.length)?y.readings:[y.reading];rs.forEach(function(r){if(correctReadings.indexOf(r)===-1&&readingPool.indexOf(r)===-1)readingPool.push(r)})});\nK.readingOpts=shuffle(correctReadings.concat(shuffle(readingPool).slice(0,Math.max(0,4-correctReadings.length))));
 K.meaningOpts=shuffle([x].concat(shuffle(K.items.filter(function(y){return y.id!==x.id&&y.meaning!==x.meaning})).slice(0,3)));
 K.selectedReading=null;K.selectedMeaning=null
 }
 var pct=Math.round(K.i/K.questions.length*100);
 var h='<div class="bar"><b>Tes kanji</b><button class="x" data-a="khome">✕</button></div><div class="k-progress-head"><span>Pertanyaan '+(K.i+1)+' / '+K.questions.length+'</span><strong>'+pct+'%</strong></div><div class="k-progress"><i style="width:'+pct+'%"></i></div><div class="kanji-card k-test-card"><span class="k-card-label">Tentukan bacaan dan arti</span><div class="kanji-word">'+esc(x.word)+'</div></div>';
 h+='<section class="k-question-group"><h3>1. Pilih penulisan hiragana yang benar</h3><div class="k-options">';
-K.readingOpts.forEach(function(o,i){h+='<button class="k-option '+(K.selectedReading===o.id?'selected':'')+'" data-a="kpick|reading|'+o.id+'"><span>'+String.fromCharCode(65+i)+'</span>'+esc(o.reading)+'</button>'});
+K.readingOpts.forEach(function(r,i){h+='<button class="k-option '+(K.selectedReading===r?'selected':'')+'" data-a="kpick|reading|'+r+'"><span>'+String.fromCharCode(65+i)+'</span>'+esc(r)+'</button>'});
 h+='</div></section><section class="k-question-group"><h3>2. Pilih arti bahasa Indonesia</h3><div class="k-options">';
 K.meaningOpts.forEach(function(o,i){h+='<button class="k-option '+(K.selectedMeaning===o.id?'selected':'')+'" data-a="kpick|meaning|'+o.id+'"><span>'+String.fromCharCode(65+i)+'</span>'+esc(o.meaning)+'</button>'});
 h+='</div></section>';
 h+=btn('Soal berikutnya','knexttest','pri');
 show(h)
 }
-function kpick(type,id){if(type==='reading')K.selectedReading=+id;else K.selectedMeaning=+id;ktest()}
+function kpick(type,id){if(type==='reading')K.selectedReading=id;else K.selectedMeaning=+id;ktest()}
 function knexttest(){
 if(K.selectedReading==null||K.selectedMeaning==null){alert('Pilih satu jawaban untuk bacaan dan satu jawaban untuk arti.');return}
 var x=K.questions[K.i];
-K.answers.push({reading:K.selectedReading===x.id,meaning:K.selectedMeaning===x.id});
+var validReadings=(x.readings&&x.readings.length)?x.readings:[x.reading];\nK.answers.push({reading:validReadings.indexOf(K.selectedReading)!==-1,meaning:K.selectedMeaning===x.id});
 K.i++;K.currentId=null;K.readingOpts=null;K.meaningOpts=null;K.selectedReading=null;K.selectedMeaning=null;ktest()
 }
 
