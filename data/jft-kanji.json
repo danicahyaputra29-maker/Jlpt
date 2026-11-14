@@ -301,6 +301,20 @@
     "level": "Nyumon"
   },
   {
+    "id": 445,
+    "word": "一日",
+    "reading": "ついたち",
+    "meaning": "tanggal 1",
+    "level": "Nyumon"
+  },
+  {
+    "id": 446,
+    "word": "二日",
+    "reading": "ふつか",
+    "meaning": "tanggal 2",
+    "level": "Nyumon"
+  },
+  {
     "id": 44,
     "word": "今日",
     "reading": "きょう",
@@ -494,7 +508,11 @@
     "word": "四",
     "reading": "よん・し",
     "meaning": "empat",
-    "level": "Nyumon"
+    "level": "Nyumon",
+    "readings": [
+      "よん",
+      "し"
+    ]
   },
   {
     "id": 72,
@@ -515,7 +533,11 @@
     "word": "七",
     "reading": "なな・しち",
     "meaning": "tujuh",
-    "level": "Nyumon"
+    "level": "Nyumon",
+    "readings": [
+      "なな",
+      "しち"
+    ]
   },
   {
     "id": 75,
@@ -529,7 +551,11 @@
     "word": "九",
     "reading": "きゅう・く",
     "meaning": "sembilan",
-    "level": "Nyumon"
+    "level": "Nyumon",
+    "readings": [
+      "きゅう",
+      "く"
+    ]
   },
   {
     "id": 77,
