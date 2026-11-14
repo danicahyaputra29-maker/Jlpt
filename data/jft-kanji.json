@@ -1139,6 +1139,13 @@
     "level": "Shokyu 1"
   },
   {
+    "id": 447,
+    "word": "～店",
+    "reading": "～てん",
+    "meaning": "toko / gerai (akhiran nama toko)",
+    "level": "Shokyu 1"
+  },
+  {
     "id": 160,
     "word": "博物館",
     "reading": "はくぶつかん",
@@ -1293,6 +1300,13 @@
     "level": "Shokyu 1"
   },
   {
+    "id": 448,
+    "word": "～回",
+    "reading": "～かい",
+    "meaning": "kali (penghitung frekuensi)",
+    "level": "Shokyu 1"
+  },
+  {
     "id": 182,
     "word": "参加",
     "reading": "さんか",
@@ -1437,6 +1451,13 @@
     "word": "苦手",
     "reading": "にがて",
     "meaning": "tidak pandai / kurang suka",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 449,
+    "word": "コピー機",
+    "reading": "コピーき",
+    "meaning": "mesin fotokopi",
     "level": "Shokyu 1"
   },
   {
