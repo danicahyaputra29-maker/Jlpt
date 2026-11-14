@@ -85,9 +85,10 @@ K.i++;K.currentId=null;K.readingOpts=null;K.meaningOpts=null;K.selectedReading=n
 }
 
 var A={
- home:function(){clearInterval(tick);var h='<h1>Latihan JLPT</h1><p class="sub">Soal buatan sendiri, bukan soal resmi.</p>'+btn('Kanji JFT Basic — Flashcard & Tes','kload','pri');
+ home:function(){clearInterval(tick);var h='<section class="home-hero"><span class="home-eyebrow">RUANG BELAJAR BAHASA JEPANG</span><h1>Pilih Program Belajar</h1><p>Pilih materi yang ingin kamu pelajari.</p></section><div class="home-options"><button class="home-choice" data-a="kload"><span class="home-choice-mark">JFT</span><span class="home-choice-copy"><strong>JFT Basic</strong><small>Kanji & Kosakata · Flashcard dan tes</small></span><span class="home-choice-arrow">›</span></button><button class="home-choice" data-a="jlptHome"><span class="home-choice-mark">JLPT</span><span class="home-choice-copy"><strong>JLPT</strong><small>Latihan soal dan simulasi ujian</small></span><span class="home-choice-arrow">›</span></button></div>';show(h)},
+ jlptHome:function(){clearInterval(tick);var h='<h1>JLPT</h1><p class="sub">Pilih level latihan. Soal merupakan simulasi buatan sendiri, bukan soal resmi.</p>';
   Object.keys(CFG.levels).forEach(function(l){h+=btn(l,'menu|'+l,'pri')});h+='<p class="sub">聴解 (listening) menyusul setelah audio tersedia.</p>';
-  var H=hist().slice(0,5);if(H.length){h+='<h3>Riwayat</h3>';H.forEach(function(x){h+='<div>'+x.d+' · '+x.lv+' · '+x.p+'% ('+x.n+' soal)</div>'})}show(h)},
+  var H=hist().slice(0,5);if(H.length){h+='<h3>Riwayat</h3>';H.forEach(function(x){h+='<div>'+x.d+' · '+x.lv+' · '+x.p+'% ('+x.n+' soal)</div>'})}show(h+btn('← Kembali ke pilihan program','home'))},
  kload:function(){kLoad().catch(function(){show('<p class="err">Gagal memuat data kanji.</p>'+btn('Kembali','home'))})},
  khome:function(){kanjiHome()},
  klevel:function(level){K.level=level;kanjiHome()},
