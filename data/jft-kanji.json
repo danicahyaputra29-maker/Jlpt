@@ -1961,8 +1961,9 @@
     "id": 273,
     "word": "客",
     "reading": "きゃく",
-    "meaning": "tamu / pelanggan",
-    "level": "Shokyu 2"
+    "meaning": "tamu / pengunjung",
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Dalam konteks toko atau restoran, 客 juga dapat berarti pelanggan."
   },
   {
     "id": 274,
@@ -2067,7 +2068,8 @@
     "word": "会計",
     "reading": "かいけい",
     "meaning": "pembayaran / kasir",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: 会計 berarti pembayaran atau urusan pembayaran. Jangan tertukar dengan kasir sebagai orang yang melayani pembayaran."
   },
   {
     "id": 289,
@@ -2109,7 +2111,8 @@
     "word": "生",
     "reading": "なま",
     "meaning": "mentah / segar",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Maknanya bergantung pada konteks. 生の魚 berarti ikan mentah."
   },
   {
     "id": 295,
@@ -2158,7 +2161,8 @@
     "word": "～屋",
     "reading": "～や",
     "meaning": "toko / penjual",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Akhiran yang sering digunakan untuk nama toko. Contoh: 本屋（ほんや）= toko buku."
   },
   {
     "id": 302,
@@ -2284,7 +2288,8 @@
     "word": "指定席",
     "reading": "していせき",
     "meaning": "kursi reservasi",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Tempat duduk yang sudah ditentukan, biasanya memiliki nomor kursi. Berbeda dengan 自由席（じゆうせき）, yaitu tempat duduk bebas."
   },
   {
     "id": 320,
@@ -2375,7 +2380,8 @@
     "word": "中止",
     "reading": "ちゅうし",
     "meaning": "pembatalan",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Berarti menghentikan atau tidak melanjutkan kegiatan. Tidak selalu berarti pembatalan sebelum kegiatan dimulai."
   },
   {
     "id": 333,
@@ -2396,7 +2402,8 @@
     "word": "開く",
     "reading": "あく・ひらく",
     "meaning": "terbuka / membuka",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: あく berarti terbuka atau menjadi terbuka. ひらく dapat berarti membuka atau mengadakan acara. Contoh: ドアが開く dan 会議を開く."
   },
   {
     "id": 336,
@@ -2466,7 +2473,8 @@
     "word": "申し込む",
     "reading": "もうしこむ",
     "meaning": "mendaftar",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Digunakan untuk mendaftar atau mengajukan permohonan. Contoh: イベントに申し込む = mendaftar acara."
   },
   {
     "id": 346,
@@ -2599,7 +2607,8 @@
     "word": "怒る",
     "reading": "おこる",
     "meaning": "marah",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Dapat berarti marah atau memarahi. Contoh: 先生に怒られる = dimarahi guru."
   },
   {
     "id": 365,
@@ -2781,7 +2790,8 @@
     "word": "～点",
     "reading": "～てん",
     "meaning": "poin / buah (penilaian)",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Juga digunakan untuk menyatakan nilai atau skor. Contoh: 80点 = nilai 80."
   },
   {
     "id": 391,
@@ -2795,7 +2805,8 @@
     "word": "借りる",
     "reading": "かりる",
     "meaning": "meminjam",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Dapat berarti meminjam atau menyewa, tergantung konteks."
   },
   {
     "id": 393,
@@ -2851,7 +2862,8 @@
     "word": "窓口",
     "reading": "まどぐち",
     "meaning": "loket",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Bagian pelayanan untuk mengurus keperluan, misalnya loket pelayanan bank."
   },
   {
     "id": 401,
@@ -2914,7 +2926,8 @@
     "word": "消す",
     "reading": "けす",
     "meaning": "mematikan / menghapus",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Maknanya mengikuti objek: mematikan lampu, menghapus tulisan, atau memadamkan api."
   },
   {
     "id": 410,
@@ -2928,7 +2941,8 @@
     "word": "出す",
     "reading": "だす",
     "meaning": "mengeluarkan / menyerahkan",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Dapat berarti mengeluarkan atau menyerahkan sesuatu. Contoh: ごみを出す = mengeluarkan sampah; 宿題を出す = menyerahkan tugas."
   },
   {
     "id": 412,
@@ -3061,7 +3075,8 @@
     "word": "違う",
     "reading": "ちがう",
     "meaning": "berbeda / salah",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Dalam percakapan, juga digunakan untuk menyatakan bahwa sesuatu salah atau bukan seperti yang dimaksud."
   },
   {
     "id": 431,
@@ -3096,14 +3111,16 @@
     "word": "希望",
     "reading": "きぼう",
     "meaning": "harapan",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Selain harapan, dapat berarti keinginan atau pilihan yang diinginkan."
   },
   {
     "id": 436,
     "word": "募集",
     "reading": "ぼしゅう",
     "meaning": "perekrutan / lowongan",
-    "level": "Shokyu 2"
+    "level": "Shokyu 2",
+    "note": "Catatan tambahan: Berarti mencari atau menerima orang untuk bergabung, misalnya peserta kegiatan atau karyawan."
   },
   {
     "id": 437,
