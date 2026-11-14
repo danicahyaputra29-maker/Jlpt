@@ -673,7 +673,7 @@
     "id": 93,
     "word": "学生",
     "reading": "がくせい",
-    "meaning": "siswa / mahasiswa",
+    "meaning": "pelajar / mahasiswa",
     "level": "Shokyu 1"
   },
   {
@@ -715,7 +715,7 @@
     "id": 99,
     "word": "元気",
     "reading": "げんき",
-    "meaning": "sehat / bersemangat",
+    "meaning": "sehat, bugar / bersemangat",
     "level": "Shokyu 1"
   },
   {
@@ -757,7 +757,7 @@
     "id": 105,
     "word": "夕方",
     "reading": "ゆうがた",
-    "meaning": "sore menjelang malam",
+    "meaning": "sore",
     "level": "Shokyu 1"
   },
   {
@@ -862,7 +862,7 @@
     "id": 120,
     "word": "晴れ",
     "reading": "はれ",
-    "meaning": "cerah",
+    "meaning": "cuaca cerah",
     "level": "Shokyu 1"
   },
   {
@@ -925,7 +925,7 @@
     "id": 128,
     "word": "町",
     "reading": "まち",
-    "meaning": "kota / daerah",
+    "meaning": "kota kecil / kawasan permukiman",
     "level": "Shokyu 1"
   },
   {
@@ -946,14 +946,14 @@
     "id": 131,
     "word": "便利",
     "reading": "べんり",
-    "meaning": "praktis",
+    "meaning": "praktis / mudah digunakan",
     "level": "Shokyu 1"
   },
   {
     "id": 132,
     "word": "不便",
     "reading": "ふべん",
-    "meaning": "tidak praktis",
+    "meaning": "tidak praktis / tidak nyaman",
     "level": "Shokyu 1"
   },
   {
@@ -1044,7 +1044,7 @@
     "id": 145,
     "word": "近く",
     "reading": "ちかく",
-    "meaning": "dekat / sekitar",
+    "meaning": "dekat / tempat sekitar",
     "level": "Shokyu 1"
   },
   {
@@ -1058,7 +1058,7 @@
     "id": 147,
     "word": "送る",
     "reading": "おくる",
-    "meaning": "mengirim / mengantar",
+    "meaning": "mengirim / mengantarkan seseorang",
     "level": "Shokyu 1"
   },
   {
@@ -1142,7 +1142,7 @@
     "id": 159,
     "word": "食事",
     "reading": "しょくじ",
-    "meaning": "makan / hidangan",
+    "meaning": "makan / santapan",
     "level": "Shokyu 1"
   },
   {
@@ -1191,7 +1191,7 @@
     "id": 165,
     "word": "登る",
     "reading": "のぼる",
-    "meaning": "mendaki / naik",
+    "meaning": "naik / memanjat / mendaki",
     "level": "Shokyu 1"
   },
   {
@@ -1254,7 +1254,7 @@
     "id": 174,
     "word": "教える",
     "reading": "おしえる",
-    "meaning": "mengajar / memberi tahu",
+    "meaning": "mengajar / memberitahukan",
     "level": "Shokyu 1"
   },
   {
@@ -1268,14 +1268,14 @@
     "id": 176,
     "word": "午前",
     "reading": "ごぜん",
-    "meaning": "pagi / AM",
+    "meaning": "sebelum tengah hari (AM)",
     "level": "Shokyu 1"
   },
   {
     "id": 177,
     "word": "午後",
     "reading": "ごご",
-    "meaning": "siang / PM",
+    "meaning": "setelah tengah hari (PM)",
     "level": "Shokyu 1"
   },
   {
@@ -1303,7 +1303,7 @@
     "id": 181,
     "word": "全部",
     "reading": "ぜんぶ",
-    "meaning": "semua",
+    "meaning": "semua / seluruhnya",
     "level": "Shokyu 1"
   },
   {
@@ -1345,14 +1345,14 @@
     "id": 186,
     "word": "お酒",
     "reading": "おさけ",
-    "meaning": "minuman beralkohol",
+    "meaning": "sake / minuman beralkohol",
     "level": "Shokyu 1"
   },
   {
     "id": 187,
     "word": "材料",
     "reading": "ざいりょう",
-    "meaning": "bahan",
+    "meaning": "bahan / bahan masakan",
     "level": "Shokyu 1"
   },
   {
@@ -1457,7 +1457,7 @@
     "id": 202,
     "word": "苦手",
     "reading": "にがて",
-    "meaning": "kurang mahir / tidak pandai; kurang suka (bergantung konteks)",
+    "meaning": "tidak pandai dalam sesuatu / tidak menyukai sesuatu",
     "level": "Shokyu 1"
   },
   {
@@ -1478,7 +1478,7 @@
     "id": 204,
     "word": "電気",
     "reading": "でんき",
-    "meaning": "listrik",
+    "meaning": "listrik / lampu listrik",
     "level": "Shokyu 1"
   },
   {
@@ -1499,7 +1499,7 @@
     "id": 207,
     "word": "都合",
     "reading": "つごう",
-    "meaning": "keadaan / ketersediaan waktu",
+    "meaning": "keadaan / kecocokan waktu",
     "level": "Shokyu 1"
   },
   {
@@ -1548,7 +1548,7 @@
     "id": 214,
     "word": "氏名",
     "reading": "しめい",
-    "meaning": "nama lengkap",
+    "meaning": "nama lengkap (formal)",
     "level": "Shokyu 1"
   },
   {
@@ -1562,28 +1562,28 @@
     "id": 216,
     "word": "連絡先",
     "reading": "れんらくさき",
-    "meaning": "kontak",
+    "meaning": "informasi kontak",
     "level": "Shokyu 1"
   },
   {
     "id": 217,
     "word": "別に",
     "reading": "べつに",
-    "meaning": "tidak secara khusus (umumnya digunakan dalam kalimat negatif)",
+    "meaning": "secara khusus; tidak terlalu (biasanya dalam kalimat negatif)",
     "level": "Shokyu 1"
   },
   {
     "id": 218,
     "word": "早く",
     "reading": "はやく",
-    "meaning": "dengan cepat / lebih awal",
+    "meaning": "cepat / lebih awal",
     "level": "Shokyu 1"
   },
   {
     "id": 219,
     "word": "吸う",
     "reading": "すう",
-    "meaning": "mengisap / merokok",
+    "meaning": "mengisap / menghirup / merokok",
     "level": "Shokyu 1"
   },
   {
@@ -1611,7 +1611,7 @@
     "id": 223,
     "word": "熱",
     "reading": "ねつ",
-    "meaning": "demam / panas",
+    "meaning": "demam / suhu tubuh",
     "level": "Shokyu 1"
   },
   {
@@ -1625,7 +1625,7 @@
     "id": 225,
     "word": "病気",
     "reading": "びょうき",
-    "meaning": "penyakit / sakit",
+    "meaning": "penyakit / kondisi sakit",
     "level": "Shokyu 1"
   },
   {
@@ -1653,7 +1653,7 @@
     "id": 229,
     "word": "～才",
     "reading": "～さい",
-    "meaning": "umur ... tahun",
+    "meaning": "... tahun (satuan usia)",
     "level": "Shokyu 1"
   },
   {
@@ -1681,14 +1681,14 @@
     "id": 233,
     "word": "記入する",
     "reading": "きにゅうする",
-    "meaning": "mengisi (formulir)",
+    "meaning": "mengisi / menuliskan data pada formulir",
     "level": "Shokyu 1"
   },
   {
     "id": 234,
     "word": "持って行く",
     "reading": "もっていく",
-    "meaning": "membawa (ke suatu tempat)",
+    "meaning": "membawa pergi / membawa ke tempat tujuan",
     "level": "Shokyu 1"
   },
   {
@@ -1737,7 +1737,7 @@
     "id": 241,
     "word": "足",
     "reading": "あし",
-    "meaning": "kaki",
+    "meaning": "kaki / tungkai",
     "level": "Shokyu 1"
   },
   {
@@ -1779,14 +1779,14 @@
     "id": 247,
     "word": "お父さん",
     "reading": "おとうさん",
-    "meaning": "ayah (orang lain)",
+    "meaning": "ayah (bentuk sopan atau panggilan)",
     "level": "Shokyu 1"
   },
   {
     "id": 248,
     "word": "お母さん",
     "reading": "おかあさん",
-    "meaning": "ibu (orang lain)",
+    "meaning": "ibu (bentuk sopan atau panggilan)",
     "level": "Shokyu 1"
   },
   {
@@ -1800,7 +1800,7 @@
     "id": 250,
     "word": "お兄さん",
     "reading": "おにいさん",
-    "meaning": "kakak laki-laki (orang lain)",
+    "meaning": "kakak laki-laki (bentuk sopan atau panggilan)",
     "level": "Shokyu 1"
   },
   {
@@ -1814,7 +1814,7 @@
     "id": 252,
     "word": "お姉さん",
     "reading": "おねえさん",
-    "meaning": "kakak perempuan (orang lain)",
+    "meaning": "kakak perempuan (bentuk sopan atau panggilan)",
     "level": "Shokyu 1"
   },
   {
@@ -1870,7 +1870,7 @@
     "id": 260,
     "word": "お祝い",
     "reading": "おいわい",
-    "meaning": "perayaan / ucapan selamat",
+    "meaning": "perayaan / ucapan selamat / hadiah perayaan",
     "level": "Shokyu 1"
   },
   {
@@ -1891,21 +1891,21 @@
     "id": 263,
     "word": "時計",
     "reading": "とけい",
-    "meaning": "jam",
+    "meaning": "jam / arloji",
     "level": "Shokyu 1"
   },
   {
     "id": 264,
     "word": "幸せ",
     "reading": "しあわせ",
-    "meaning": "kebahagiaan",
+    "meaning": "bahagia / kebahagiaan",
     "level": "Shokyu 1"
   },
   {
     "id": 265,
     "word": "思う",
     "reading": "おもう",
-    "meaning": "berpikir / merasa",
+    "meaning": "berpikir / berpendapat / merasa",
     "level": "Shokyu 1"
   },
   {
@@ -1919,7 +1919,7 @@
     "id": 267,
     "word": "合格する",
     "reading": "ごうかくする",
-    "meaning": "lulus (ujian)",
+    "meaning": "lulus ujian / seleksi",
     "level": "Shokyu 1"
   },
   {
@@ -3179,7 +3179,7 @@
     "id": 452,
     "word": "作る",
     "reading": "つくる",
-    "meaning": "membuat / menanam (tanaman)",
+    "meaning": "membuat / memasak",
     "level": "Shokyu 1"
   },
   {
