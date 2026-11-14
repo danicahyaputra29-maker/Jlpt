@@ -37,10 +37,35 @@ function result(){var tot=0,ok=0,bad=[],h='<h2>Hasil '+S.lv+'</h2>',rev='';
  S.bad=bad;try{var H=hist();H.unshift({d:new Date().toISOString().slice(0,10),lv:S.lv,p:pct,n:tot});localStorage.setItem('jlpt_h',JSON.stringify(H.slice(0,20)))}catch(e){}
  if(bad.length)h+=btn('Latih ulang soal yang salah ('+bad.length+')','retry','pri');
  show(h+btn('Beranda','home')+'<h3>Pembahasan</h3>'+rev+btn('Beranda','home'))}
+
+var K={items:[],pool:[],i:0,shown:false,mode:'card',score:0,questions:[],answers:[],level:'Semua'};
+function kanjiHome(){var c={'Nyumon':0,'Shokyu 1':0,'Shokyu 2':0};K.items.forEach(function(x){c[x.level]=(c[x.level]||0)+1});
+var h='<h2>Kanji JFT Basic</h2><p class="sub">Daftar kosakata Irodori · '+K.items.length+' entri</p><h3>Pilih materi</h3>'+btn('Semua tingkat ('+K.items.length+')','klevel|Semua');
+Object.keys(c).forEach(function(x){h+=btn(x+' ('+c[x]+')','klevel|'+x)});
+h+='<h3>Mode belajar</h3>'+btn('Flashcard','kstart|card','pri')+btn('Tes pilihan ganda','kstart|test','pri')+btn('← Beranda','home');show(h)}
+function kLoad(){return get('data/jft-kanji.json').then(function(a){K.items=a;K.pool=a.slice();kanjiHome()})}
+function kstart(mode){K.mode=mode;K.pool=shuffle(K.items.filter(function(x){return K.level==='Semua'||x.level===K.level}));K.i=0;K.shown=false;K.answers=[];if(mode==='test'){K.questions=K.pool.slice(0,Math.min(10,K.pool.length));ktest()}else kcard()}
+function kcard(){var x=K.pool[K.i];if(!x){kanjiHome();return}var h='<div class="bar"><b>Flashcard kanji</b><span>'+(K.i+1)+' / '+K.pool.length+'</span><button class="x" data-a="khome">✕</button></div><p class="sub">'+x.level+'</p><div class="kanji-card"><div class="kanji-word">'+esc(x.word)+'</div>';
+if(K.shown)h+='<div class="kanji-answer">'+esc(x.reading)+'<strong>'+esc(x.meaning)+'</strong></div>';h+='</div>';
+if(!K.shown)h+=btn('Lihat cara baca & arti','kreveal','pri');else h+=btn('Sudah hafal','knext','pri')+btn('Belum hafal — ulangi nanti','kagain');
+h+=btn('Kembali ke materi','khome');show(h)}
+function ktest(){var x=K.questions[K.i];if(!x){var n=K.answers.filter(Boolean).length;show('<h2>Hasil tes kanji</h2><div class="sc">'+n+' / '+K.questions.length+'</div><p>'+Math.round(n/K.questions.length*100)+'% benar</p>'+btn('Tes lagi','kstart|test','pri')+btn('Kembali','khome'));return}
+var opts=shuffle([x].concat(shuffle(K.items.filter(function(y){return y.id!==x.id&&y.meaning!==x.meaning})).slice(0,3)));K.opts=opts;
+var h='<div class="bar"><b>Tes kanji</b><span>'+(K.i+1)+' / '+K.questions.length+'</span><button class="x" data-a="khome">✕</button></div><p class="sub">Pilih arti yang tepat.</p><div class="kanji-card"><div class="kanji-word">'+esc(x.word)+'</div><div>'+esc(x.reading)+'</div></div>';
+opts.forEach(function(o,i){h+=btn((i+1)+'. '+esc(o.meaning),'kanswer|'+o.id)});show(h)}
+
 var A={
- home:function(){clearInterval(tick);var h='<h1>Latihan JLPT</h1><p class="sub">Soal buatan sendiri, bukan soal resmi.</p>';
+ home:function(){clearInterval(tick);var h='<h1>Latihan JLPT</h1><p class="sub">Soal buatan sendiri, bukan soal resmi.</p>'+btn('Kanji JFT Basic — Flashcard & Tes','kload','pri');
   Object.keys(CFG.levels).forEach(function(l){h+=btn(l,'menu|'+l,'pri')});h+='<p class="sub">聴解 (listening) menyusul setelah audio tersedia.</p>';
   var H=hist().slice(0,5);if(H.length){h+='<h3>Riwayat</h3>';H.forEach(function(x){h+='<div>'+x.d+' · '+x.lv+' · '+x.p+'% ('+x.n+' soal)</div>'})}show(h)},
+ kload:function(){kLoad().catch(function(){show('<p class="err">Gagal memuat data kanji.</p>'+btn('Kembali','home'))})},
+ khome:function(){kanjiHome()},
+ klevel:function(level){K.level=level;kanjiHome()},
+ kstart:function(mode){kstart(mode)},
+ kreveal:function(){K.shown=true;kcard()},
+ knext:function(){K.i++;K.shown=false;kcard()},
+ kagain:function(){var x=K.pool.splice(K.i,1)[0];K.pool.push(x);K.shown=false;kcard()},
+ kanswer:function(id){var x=K.questions[K.i];K.answers.push(+id===x.id);K.i++;ktest()},
  menu:function(lv){var L=CFG.levels[lv],h='<h2>'+lv+'</h2>'+btn('Simulasi penuh (timer per bagian)','full|'+lv,'pri');
   L.sections.forEach(function(s,i){h+='<h3>'+s.name+' · '+s.min+' menit</h3>'+btn('Latihan seluruh bagian','sec|'+lv+'|'+i);
    s.m.forEach(function(m){h+='<button class="b sm" data-a="mon|'+lv+'|'+i+'|'+m[0]+'">問題'+m[0]+' '+CFG.types[m[2]][0]+'</button>'})});
