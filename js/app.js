@@ -3,7 +3,7 @@ var app=document.getElementById('app'),CFG,BANK={},S={},tick=null;
 function $(s){return document.querySelector(s)}
 function esc(t){return String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
 function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
-function get(u){if(window.JLPT_DATA&&JLPT_DATA[u])return Promise.resolve(JLPT_DATA[u]);return fetch(u).then(function(r){if(!r.ok)throw 0;return r.json()})}
+function get(u){if(window.JLPT_DATA&&JLPT_DATA[u])return Promise.resolve(JLPT_DATA[u]);return fetch(u,{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()})}
 function load(files){return Promise.all(files.map(function(f){return BANK[f]?BANK[f]:get('data/'+f).then(function(d){return BANK[f]=d})})).then(function(r){return [].concat.apply([],r)})}
 function show(h){app.innerHTML=h;window.scrollTo(0,0)}
 function btn(t,a,c){return '<button class="b '+(c||'')+'" data-a="'+a+'">'+t+'</button>'}
