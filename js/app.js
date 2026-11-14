@@ -21,7 +21,7 @@ function quiz(items,sec){S.items=items;S.sec=sec;var pm=0,h='<main class="jlpt-p
   h+='<div class="q"><div class="n">'+(i+1)+'</div>'+(q.passage?'<p class="ps">'+esc(q.passage)+'</p>':'')+'<p class="qt">'+fmt(q)+'</p>';
   it.o.forEach(function(oi,k){h+='<label class="op"><input type="radio" name="q'+i+'" value="'+oi+'"><span>'+(k+1)+'. '+esc(q.options[oi])+'</span></label>'});
   h+='</div>'});
- h+='</main>';show(h+btn('Selesai','submit','pri jlpt-submit'));clearInterval(tick);
+ h+=btn('Selesai','submit','pri jlpt-submit')+'</main>';show(h);clearInterval(tick);
  var min=S.only?0:(sec.min||0);if(min){var end=Date.now()+min*6e4,el=$('#t');
   var tk=function(){var r=Math.max(0,Math.round((end-Date.now())/1000));el.textContent=Math.floor(r/60)+':'+('0'+r%60).slice(-2);if(r<=0)finish()};tk();tick=setInterval(tk,500)}}
 function finish(){clearInterval(tick);if(!S.items)return;
