@@ -6,6 +6,8 @@ function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(M
 function get(u){if(window.JLPT_DATA&&JLPT_DATA[u])return Promise.resolve(JLPT_DATA[u]);return fetch(u,{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()})}
 function load(files){return Promise.all(files.map(function(f){return BANK[f]?BANK[f]:get('data/'+f).then(function(d){return BANK[f]=d})})).then(function(r){return [].concat.apply([],r)})}
 function show(h){app.innerHTML=h}
+function setRoute(name){var hash='#'+name;if(location.hash!==hash)history.pushState({route:name},'',hash)}
+function openRoute(){var route=location.hash.replace(/^#/,'');if(route==='jft')A.kload();else if(route==='jlpt')A.jlptHome();else A.home()}
 function btn(t,a,c){return '<button class="b '+(c||'')+'" data-a="'+a+'">'+t+'</button>'}
 function hist(){try{return JSON.parse(localStorage.getItem('jlpt_h')||'[]')}catch(e){return []}}
 function fmt(q){var t=esc(q.question);if(q.underlined){var u=esc(q.underlined);t=t.replace(u,'<u>'+u+'</u>')}return t}
@@ -13,7 +15,7 @@ function build(sec,all,only){var out=[];sec.m.forEach(function(m){if(only&&m[0]!
  shuffle(all.filter(function(q){return q.mondai===m[0]})).slice(0,m[1]).forEach(function(q){out.push({q:q,m:m,o:shuffle([0,1,2,3])})})});return out}
 function start(lv,plan,only,full){S={lv:lv,plan:plan,only:only,full:!!full,i:0,done:[]};run()}
 function run(){var p=S.plan[S.i];if(p.items)return quiz(p.items,p.sec);
- load(p.sec.files).then(function(all){var it=build(p.sec,all,S.only);if(!it.length){alert('Belum ada soal untuk bagian ini.');return A.home()}quiz(it,p.sec)})
+ load(p.sec.files).then(function(all){var it=build(p.sec,all,S.only);if(!it.length){alert('Belum ada soal untuk bagian ini.');return A.jlptHome()}quiz(it,p.sec)})
  .catch(function(){show('<p class="err">Gagal memuat soal. Buka lewat GitHub Pages atau server, bukan file langsung.</p>'+btn('Kembali','home'))})}
 function quiz(items,sec){S.items=items;S.sec=sec;var pm=0,h='<main class="jlpt-page jlpt-exam"><div class="bar jlpt-exam-bar"><b>'+esc(sec.name)+'</b><span id="t"></span><button class="x" data-a="exit">✕</button></div>';
  items.forEach(function(it,i){var q=it.q;
@@ -36,7 +38,7 @@ function result(){var tot=0,ok=0,bad=[],h='<h2>Hasil '+S.lv+'</h2>',rev='';
  if(S.full){var est=Math.round(ok/tot*120);h+='<p>Perkiraan kelompok 1 (言語知識・読解): <b>'+est+' / 120</b>. Batas minimum '+L.min1+': <b>'+(est>=L.min1?'terpenuhi':'belum terpenuhi')+'</b>.</p><small>Perkiraan, bukan skor resmi. Total dan status lulus ('+L.pass+' dari 180) menunggu bagian 聴解.</small>'}
  S.bad=bad;try{var H=hist();H.unshift({d:new Date().toISOString().slice(0,10),lv:S.lv,p:pct,n:tot});localStorage.setItem('jlpt_h',JSON.stringify(H.slice(0,20)))}catch(e){}
  if(bad.length)h+=btn('Latih ulang soal yang salah ('+bad.length+')','retry','pri');
- show(h+btn('Beranda','home','jlpt-back')+'<h3>Pembahasan</h3>'+rev+btn('Beranda','home','jlpt-back')+'</main>')}
+ show(h+btn('Kembali ke JLPT','jlptHome','jlpt-back')+'<h3>Pembahasan</h3>'+rev+btn('Kembali ke JLPT','jlptHome','jlpt-back')+'</main>')}
 
 var K={items:[],pool:[],i:0,shown:false,mode:'card',score:0,questions:[],answers:[],readingOpts:null,meaningOpts:null,selectedReading:null,selectedMeaning:null,currentId:null,level:'Semua'};
 function kanjiHome(){var c={'Nyumon':0,'Shokyu 1':0,'Shokyu 2':0};K.items.forEach(function(x){c[x.level]=(c[x.level]||0)+1});
@@ -109,7 +111,8 @@ var A={
  mon:function(lv,i,n){start(lv,[{sec:CFG.levels[lv].sections[+i]}],+n)},
  submit:function(){finish()},
  retry:function(){S.plan=[{sec:{name:'Latihan ulang',min:0},items:S.bad}];S.i=0;S.done=[];S.only=null;S.full=false;run()},
- exit:function(){if(confirm('Keluar? Jawaban bagian ini hilang.')){clearInterval(tick);A.home()}}};
-app.addEventListener('click',function(e){var b=e.target.closest('[data-a]');if(!b)return;var a=b.getAttribute('data-a').split('|');A[a[0]].apply(null,a.slice(1))});
-get('data/config.json').then(function(c){CFG=c;A.home()}).catch(function(){show('<p class="err">Gagal memuat config. Buka lewat GitHub Pages atau server.</p>')});
+ exit:function(){if(confirm('Keluar? Jawaban bagian ini hilang.')){clearInterval(tick);A.jlptHome()}}};
+app.addEventListener('click',function(e){var b=e.target.closest('[data-a]');if(!b)return;var a=b.getAttribute('data-a').split('|');if(a[0]==='home')setRoute('home');else if(a[0]==='kload')setRoute('jft');else if(a[0]==='jlptHome')setRoute('jlpt');A[a[0]].apply(null,a.slice(1))});
+window.addEventListener('popstate',function(){if(CFG)openRoute()});
+get('data/config.json').then(function(c){CFG=c;openRoute()}).catch(function(){show('<p class="err">Gagal memuat config. Buka lewat GitHub Pages atau server, bukan file langsung.</p>')});
 })();
