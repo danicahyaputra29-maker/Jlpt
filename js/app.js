@@ -38,7 +38,7 @@ function result(){var tot=0,ok=0,bad=[],h='<h2>Hasil '+S.lv+'</h2>',rev='';
  if(bad.length)h+=btn('Latih ulang soal yang salah ('+bad.length+')','retry','pri');
  show(h+btn('Beranda','home')+'<h3>Pembahasan</h3>'+rev+btn('Beranda','home'))}
 
-var K={items:[],pool:[],i:0,shown:false,mode:'card',score:0,questions:[],answers:[],level:'Semua'};
+var K={items:[],pool:[],i:0,shown:false,mode:'card',score:0,questions:[],answers:[],readingOpts:null,meaningOpts:null,selectedReading:null,selectedMeaning:null,currentId:null,level:'Semua'};
 function kanjiHome(){var c={'Nyumon':0,'Shokyu 1':0,'Shokyu 2':0};K.items.forEach(function(x){c[x.level]=(c[x.level]||0)+1});
 var h='<section class="k-hero"><div class="k-eyebrow">IRODORI · JFT-BASIC</div><h1>Kanji & Kosakata</h1><p>Latih ingatan membaca dan memahami kosakata Jepang secara bertahap.</p><div class="k-total"><strong>'+K.items.length+'</strong><span>kosakata tersedia</span></div></section><div class="k-section-title"><h3>Pilih materi</h3><span>Materi belajar</span></div><div class="k-levels">';
 h+='<button class="k-level '+(K.level==='Semua'?'active':'')+'" data-a="klevel|Semua"><span>Semua tingkat</span><strong>'+K.items.length+'</strong></button>';
@@ -50,10 +50,36 @@ function kcard(){var x=K.pool[K.i];if(!x){kanjiHome();return}var pct=Math.round(
 if(K.shown)h+='<div class="kanji-answer"><span>'+esc(x.reading)+'</span><strong>'+esc(x.meaning)+'</strong></div>';h+='</div>';
 if(!K.shown)h+=btn('Tampilkan bacaan & arti','kreveal','pri');else h+='<div class="k-card-actions">'+btn('Sudah hafal','knext','pri')+btn('Belum hafal','kagain')+'</div>';
 h+=btn('Kembali ke materi','khome');show(h)}
-function ktest(){var x=K.questions[K.i];if(!x){var n=K.answers.filter(Boolean).length;show('<h2>Hasil tes kanji</h2><div class="sc">'+n+' / '+K.questions.length+'</div><p>'+Math.round(n/K.questions.length*100)+'% benar</p>'+btn('Tes lagi','kstart|test','pri')+btn('Kembali','khome'));return}
-var opts=shuffle([x].concat(shuffle(K.items.filter(function(y){return y.id!==x.id&&y.meaning!==x.meaning})).slice(0,3)));K.opts=opts;
-var pct=Math.round(K.i/K.questions.length*100);var h='<div class="bar"><b>Tes kanji</b><button class="x" data-a="khome">✕</button></div><div class="k-progress-head"><span>Pertanyaan '+(K.i+1)+'</span><strong>'+K.questions.length+' soal</strong></div><div class="k-progress"><i style="width:'+pct+'%"></i></div><p class="k-test-prompt">Pilih arti yang tepat.</p><div class="kanji-card k-test-card"><span class="k-card-label">Kosakata</span><div class="kanji-word">'+esc(x.word)+'</div><div class="k-reading">'+esc(x.reading)+'</div></div><div class="k-options">';
-opts.forEach(function(o,i){h+='<button class="k-option" data-a="kanswer|'+o.id+'"><span>'+(i+1)+'</span>'+esc(o.meaning)+'</button>'});h+='</div>';show(h)}
+function ktest(){
+var x=K.questions[K.i];
+if(!x){
+var total=K.questions.length*2,n=K.answers.reduce(function(a,v){return a+(v.reading?1:0)+(v.meaning?1:0)},0);
+var h='<h2>Hasil tes kanji</h2><div class="sc">'+n+' / '+total+'</div><p>'+Math.round(n/total*100)+'% benar</p><p>Nilai bacaan: '+K.answers.filter(function(v){return v.reading}).length+' / '+K.questions.length+'</p><p>Nilai arti: '+K.answers.filter(function(v){return v.meaning}).length+' / '+K.questions.length+'</p>';
+show(h+btn('Tes lagi','kstart|test','pri')+btn('Kembali','khome'));return
+}
+if(!K.readingOpts||K.currentId!==x.id){
+K.currentId=x.id;
+K.readingOpts=shuffle([x].concat(shuffle(K.items.filter(function(y){return y.id!==x.id&&y.reading!==x.reading})).slice(0,3)));
+K.meaningOpts=shuffle([x].concat(shuffle(K.items.filter(function(y){return y.id!==x.id&&y.meaning!==x.meaning})).slice(0,3)));
+K.selectedReading=null;K.selectedMeaning=null
+}
+var pct=Math.round(K.i/K.questions.length*100);
+var h='<div class="bar"><b>Tes kanji</b><button class="x" data-a="khome">✕</button></div><div class="k-progress-head"><span>Pertanyaan '+(K.i+1)+' / '+K.questions.length+'</span><strong>'+pct+'%</strong></div><div class="k-progress"><i style="width:'+pct+'%"></i></div><div class="kanji-card k-test-card"><span class="k-card-label">Tentukan bacaan dan arti</span><div class="kanji-word">'+esc(x.word)+'</div></div>';
+h+='<section class="k-question-group"><h3>1. Pilih penulisan hiragana yang benar</h3><div class="k-options">';
+K.readingOpts.forEach(function(o,i){h+='<button class="k-option '+(K.selectedReading===o.id?'selected':'')+'" data-a="kpick|reading|'+o.id+'"><span>'+String.fromCharCode(65+i)+'</span>'+esc(o.reading)+'</button>'});
+h+='</div></section><section class="k-question-group"><h3>2. Pilih arti bahasa Indonesia</h3><div class="k-options">';
+K.meaningOpts.forEach(function(o,i){h+='<button class="k-option '+(K.selectedMeaning===o.id?'selected':'')+'" data-a="kpick|meaning|'+o.id+'"><span>'+String.fromCharCode(65+i)+'</span>'+esc(o.meaning)+'</button>'});
+h+='</div></section>';
+h+=btn('Soal berikutnya','knexttest','pri');
+show(h)
+}
+function kpick(type,id){if(type==='reading')K.selectedReading=+id;else K.selectedMeaning=+id;ktest()}
+function knexttest(){
+if(K.selectedReading==null||K.selectedMeaning==null){alert('Pilih satu jawaban untuk bacaan dan satu jawaban untuk arti.');return}
+var x=K.questions[K.i];
+K.answers.push({reading:K.selectedReading===x.id,meaning:K.selectedMeaning===x.id});
+K.i++;K.currentId=null;K.readingOpts=null;K.meaningOpts=null;K.selectedReading=null;K.selectedMeaning=null;ktest()
+}
 
 var A={
  home:function(){clearInterval(tick);var h='<h1>Latihan JLPT</h1><p class="sub">Soal buatan sendiri, bukan soal resmi.</p>'+btn('Kanji JFT Basic — Flashcard & Tes','kload','pri');
@@ -66,7 +92,8 @@ var A={
  kreveal:function(){K.shown=true;kcard()},
  knext:function(){K.i++;K.shown=false;kcard()},
  kagain:function(){var x=K.pool.splice(K.i,1)[0];K.pool.push(x);K.shown=false;kcard()},
- kanswer:function(id){var x=K.questions[K.i];K.answers.push(+id===x.id);K.i++;ktest()},
+ kpick:function(type,id){kpick(type,id)},
+ knexttest:function(){knexttest()},
  menu:function(lv){var L=CFG.levels[lv],h='<h2>'+lv+'</h2>'+btn('Simulasi penuh (timer per bagian)','full|'+lv,'pri');
   L.sections.forEach(function(s,i){h+='<h3>'+s.name+' · '+s.min+' menit</h3>'+btn('Latihan seluruh bagian','sec|'+lv+'|'+i);
    s.m.forEach(function(m){h+='<button class="b sm" data-a="mon|'+lv+'|'+i+'|'+m[0]+'">問題'+m[0]+' '+CFG.types[m[2]][0]+'</button>'})});
