@@ -15,13 +15,13 @@ function start(lv,plan,only,full){S={lv:lv,plan:plan,only:only,full:!!full,i:0,d
 function run(){var p=S.plan[S.i];if(p.items)return quiz(p.items,p.sec);
  load(p.sec.files).then(function(all){var it=build(p.sec,all,S.only);if(!it.length){alert('Belum ada soal untuk bagian ini.');return A.home()}quiz(it,p.sec)})
  .catch(function(){show('<p class="err">Gagal memuat soal. Buka lewat GitHub Pages atau server, bukan file langsung.</p>'+btn('Kembali','home'))})}
-function quiz(items,sec){S.items=items;S.sec=sec;var pm=0,h='<div class="bar"><b>'+esc(sec.name)+'</b><span id="t"></span><button class="x" data-a="exit">✕</button></div>';
+function quiz(items,sec){S.items=items;S.sec=sec;var pm=0,h='<main class="jlpt-page jlpt-exam"><div class="bar jlpt-exam-bar"><b>'+esc(sec.name)+'</b><span id="t"></span><button class="x" data-a="exit">✕</button></div>';
  items.forEach(function(it,i){var q=it.q;
   if(it.m[0]!==pm){pm=it.m[0];var T=CFG.types[it.m[2]];h+='<h3>問題'+pm+'　'+T[0]+'</h3><p class="ins">'+T[1]+'</p>'}
   h+='<div class="q"><div class="n">'+(i+1)+'</div>'+(q.passage?'<p class="ps">'+esc(q.passage)+'</p>':'')+'<p class="qt">'+fmt(q)+'</p>';
   it.o.forEach(function(oi,k){h+='<label class="op"><input type="radio" name="q'+i+'" value="'+oi+'"><span>'+(k+1)+'. '+esc(q.options[oi])+'</span></label>'});
   h+='</div>'});
- show(h+btn('Selesai','submit','pri'));clearInterval(tick);
+ h+='</main>';show(h+btn('Selesai','submit','pri jlpt-submit'));clearInterval(tick);
  var min=S.only?0:(sec.min||0);if(min){var end=Date.now()+min*6e4,el=$('#t');
   var tk=function(){var r=Math.max(0,Math.round((end-Date.now())/1000));el.textContent=Math.floor(r/60)+':'+('0'+r%60).slice(-2);if(r<=0)finish()};tk();tick=setInterval(tk,500)}}
 function finish(){clearInterval(tick);if(!S.items)return;
@@ -32,11 +32,11 @@ function result(){var tot=0,ok=0,bad=[],h='<h2>Hasil '+S.lv+'</h2>',rev='';
   rev+='<div class="rv '+(r?'ok':'ng')+'"><div class="n">問題'+it.m[0]+' No.'+(i+1)+' '+(r?'✓ Benar':'✗ Salah')+'</div>'+(q.passage?'<p class="ps">'+esc(q.passage)+'</p>':'')+'<p class="qt">'+fmt(q)+'</p>'
   +'<div>Jawabanmu: '+(d.ch[i]==null?'(kosong)':esc(q.options[d.ch[i]]))+'</div><div>Benar: <b>'+esc(q.options[q.answer])+'</b></div><small>'+esc(q.explanation)+'</small></div>'});
   h+='<p><b>'+esc(d.sec.name)+'</b>: '+c+' / '+d.items.length+' ('+Math.round(c/d.items.length*100)+'%)</p>';tot+=d.items.length;ok+=c});
- var pct=Math.round(ok/tot*100),L=CFG.levels[S.lv];h+='<div class="sc">'+pct+'%</div>';
+ var pct=Math.round(ok/tot*100),L=CFG.levels[S.lv];h='<main class="jlpt-page jlpt-result"><section class="jlpt-menu-hero"><div class="jlpt-eyebrow">HASIL LATIHAN</div><h1>Hasil '+esc(S.lv)+'</h1></section>'+h+'<div class="sc">'+pct+'%</div>';
  if(S.full){var est=Math.round(ok/tot*120);h+='<p>Perkiraan kelompok 1 (言語知識・読解): <b>'+est+' / 120</b>. Batas minimum '+L.min1+': <b>'+(est>=L.min1?'terpenuhi':'belum terpenuhi')+'</b>.</p><small>Perkiraan, bukan skor resmi. Total dan status lulus ('+L.pass+' dari 180) menunggu bagian 聴解.</small>'}
  S.bad=bad;try{var H=hist();H.unshift({d:new Date().toISOString().slice(0,10),lv:S.lv,p:pct,n:tot});localStorage.setItem('jlpt_h',JSON.stringify(H.slice(0,20)))}catch(e){}
  if(bad.length)h+=btn('Latih ulang soal yang salah ('+bad.length+')','retry','pri');
- show(h+btn('Beranda','home')+'<h3>Pembahasan</h3>'+rev+btn('Beranda','home'))}
+ show(h+btn('Beranda','home','jlpt-back')+'<h3>Pembahasan</h3>'+rev+btn('Beranda','home','jlpt-back')+'</main>')}
 
 var K={items:[],pool:[],i:0,shown:false,mode:'card',score:0,questions:[],answers:[],readingOpts:null,meaningOpts:null,selectedReading:null,selectedMeaning:null,currentId:null,level:'Semua'};
 function kanjiHome(){var c={'Nyumon':0,'Shokyu 1':0,'Shokyu 2':0};K.items.forEach(function(x){c[x.level]=(c[x.level]||0)+1});
@@ -86,9 +86,11 @@ K.i++;K.currentId=null;K.readingOpts=null;K.meaningOpts=null;K.selectedReading=n
 
 var A={
  home:function(){clearInterval(tick);var cat='<svg class="home-cat" viewBox="0 0 360 270" role="img" aria-label="Ilustrasi kucing"><path d="M84 111 99 35q3-14 15-4l52 48q25-8 49 0l50-48q12-11 16 4l15 77c14 17 21 39 21 63 0 53-44 83-118 83S79 227 79 174c0-24 1-45 5-63Z" fill="#fff" stroke="#204f91" stroke-width="7" stroke-linejoin="round"/><path d="m105 47 39 36-42 15Z" fill="#f6b7c4"/><path d="m270 47-39 36 42 15Z" fill="#f6b7c4"/><path d="M91 119q28-31 63-12M213 107q34-19 62 12" fill="none" stroke="#8b9ab2" stroke-width="15" stroke-linecap="round"/><path d="M125 153q15-18 30 0M220 153q15-18 30 0" fill="none" stroke="#173d78" stroke-width="7" stroke-linecap="round"/><ellipse cx="107" cy="169" rx="15" ry="10" fill="#f6b7c4"/><ellipse cx="269" cy="169" rx="15" ry="10" fill="#f6b7c4"/><path d="m184 163-9 7q9 9 18 0Z" fill="#e98b9b"/><path d="M184 171q-2 23-19 13M184 171q2 23 19 13" fill="none" stroke="#173d78" stroke-width="5" stroke-linecap="round"/><path d="M80 178 48 172M81 190 49 194M287 178l31-6M287 190l32 4" stroke="#204f91" stroke-width="4" stroke-linecap="round"/><path d="M106 217q-18 2-20 19-2 17 19 18h47q17-1 16-17-1-19-22-20M207 217q-18 2-20 19-2 17 19 18h47q17-1 16-17-1-19-22-20" fill="#fff" stroke="#204f91" stroke-width="6" stroke-linejoin="round"/></svg>';var h='<main class="home-page"><header class="home-header"><div class="home-brand"><span class="home-cap">あ</span><div><strong>日本語の勉強</strong><small>Nihongo no Benkyou</small></div></div></header><section class="home-welcome"><div class="home-welcome-copy"><span class="home-welcome-kicker">WELCOME</span><h1>ようこそ！</h1><span class="home-underline"></span></div>'+cat+'</section><section class="home-options"><button class="home-choice home-jft" data-a="kload"><span class="home-choice-icon">✿</span><span class="home-choice-copy"><strong>JFT Basic</strong><small>Kanji & Kosakata · Flashcard dan Tes</small></span></button><button class="home-choice home-jlpt" data-a="jlptHome"><span class="home-choice-icon">文</span><span class="home-choice-copy"><strong>JLPT</strong><small>Latihan lengkap untuk JLPT</small></span></button></section><section class="home-features"><div class="home-feature-title"><span></span><h2>✿ Fitur</h2><span></span></div><div class="home-feature-grid"><div class="home-feature"><span>▤</span><strong>Latihan Soal</strong></div><div class="home-feature"><span>▥</span><strong>Simulasi Ujian</strong></div><div class="home-feature"><span>▱</span><strong>Flashcard</strong></div><div class="home-feature"><span>◷</span><strong>Riwayat</strong></div></div></section></main>';show(h)},
- jlptHome:function(){clearInterval(tick);var h='<h1>JLPT</h1><p class="sub">Pilih level latihan. Soal merupakan simulasi buatan sendiri, bukan soal resmi.</p>';
-  Object.keys(CFG.levels).forEach(function(l){h+=btn(l,'menu|'+l,'pri')});h+='<p class="sub">聴解 (listening) menyusul setelah audio tersedia.</p>';
-  var H=hist().slice(0,5);if(H.length){h+='<h3>Riwayat</h3>';H.forEach(function(x){h+='<div>'+x.d+' · '+x.lv+' · '+x.p+'% ('+x.n+' soal)</div>'})}show(h+btn('← Kembali ke pilihan program','home'))},
+ jlptHome:function(){clearInterval(tick);var levels=Object.keys(CFG.levels),h='<main class="jlpt-page jlpt-dashboard"><section class="jlpt-hero"><div class="jlpt-eyebrow">JAPANESE LANGUAGE PROFICIENCY TEST</div><h1>Latihan JLPT</h1><p>Pilih tingkat kemampuan dan mulai latihan soal.</p><div class="jlpt-hero-meta"><strong>N5 – N1</strong><span>Simulasi latihan</span></div><div class="jlpt-hero-mark">日本語</div></section><div class="jlpt-section-head"><h2>Pilih level</h2><span>'+levels.length+' tingkat tersedia</span></div><div class="jlpt-level-grid">';
+  levels.forEach(function(l,i){h+='<button class="jlpt-level-card" data-a="menu|'+l+'"><span class="jlpt-level-number">'+l+'</span><span class="jlpt-level-caption">Mulai latihan</span><span class="jlpt-level-index">0'+(i+1)+'</span></button>'});
+  h+='</div><div class="jlpt-note"><span class="jlpt-note-icon">i</span><p>Soal merupakan simulasi buatan sendiri, bukan soal resmi. 聴解 (listening) menyusul setelah audio tersedia.</p></div>';
+  var H=hist().slice(0,5);if(H.length){h+='<section class="jlpt-history"><div class="jlpt-section-head"><h2>Riwayat latihan</h2><span>5 aktivitas terakhir</span></div><div class="jlpt-history-list">';H.forEach(function(x){h+='<div class="jlpt-history-item"><span class="jlpt-history-level">'+esc(x.lv)+'</span><span class="jlpt-history-date">'+esc(x.d)+'</span><strong>'+esc(x.p)+'%</strong><small>'+esc(x.n)+' soal</small></div>'});h+='</div></section>'}
+  h+='</main>';show(h+btn('← Kembali ke pilihan program','home','jlpt-back'))},
  kload:function(){kLoad().catch(function(){show('<p class="err">Gagal memuat data kanji.</p>'+btn('Kembali','home'))})},
  khome:function(){kanjiHome()},
  klevel:function(level){K.level=level;kanjiHome()},
@@ -98,10 +100,10 @@ var A={
  kagain:function(){var x=K.pool.splice(K.i,1)[0];K.pool.push(x);K.shown=false;kcard()},
  kpick:function(type,id){kpick(type,id)},
  knexttest:function(){knexttest()},
- menu:function(lv){var L=CFG.levels[lv],h='<h2>'+lv+'</h2>'+btn('Simulasi penuh (timer per bagian)','full|'+lv,'pri');
-  L.sections.forEach(function(s,i){h+='<h3>'+s.name+' · '+s.min+' menit</h3>'+btn('Latihan seluruh bagian','sec|'+lv+'|'+i);
-   s.m.forEach(function(m){h+='<button class="b sm" data-a="mon|'+lv+'|'+i+'|'+m[0]+'">問題'+m[0]+' '+CFG.types[m[2]][0]+'</button>'})});
-  show(h+btn('← Kembali','home'))},
+ menu:function(lv){var L=CFG.levels[lv],h='<main class="jlpt-page jlpt-menu"><section class="jlpt-menu-hero"><div class="jlpt-eyebrow">PILIHAN LATIHAN</div><h1>'+esc(lv)+'</h1><p>Pilih simulasi lengkap atau latihan berdasarkan bagian dan tipe soal.</p></section>'+btn('Simulasi penuh (timer per bagian)','full|'+lv,'pri jlpt-full-button')+'<div class="jlpt-section-grid">';
+  L.sections.forEach(function(s,i){h+='<section class="jlpt-section-card"><div class="jlpt-section-card-head"><div><span class="jlpt-section-kicker">BAGIAN '+(i+1)+'</span><h2>'+esc(s.name)+'</h2></div><span class="jlpt-duration">'+esc(s.min)+' menit</span></div>'+btn('Latihan seluruh bagian','sec|'+lv+'|'+i,'jlpt-section-all')+'<div class="jlpt-mondai-grid">';
+   s.m.forEach(function(m){h+='<button class="jlpt-mondai" data-a="mon|'+lv+'|'+i+'|'+m[0]+'"><span>問題'+m[0]+'</span><strong>'+esc(CFG.types[m[2]][0])+'</strong><i>›</i></button>'});h+='</div></section>'});
+  h+='</div></main>';show(h+btn('← Kembali','jlptHome','jlpt-back'))},
  full:function(lv){start(lv,CFG.levels[lv].sections.map(function(s){return{sec:s}}),null,true)},
  sec:function(lv,i){start(lv,[{sec:CFG.levels[lv].sections[+i]}],null)},
  mon:function(lv,i,n){start(lv,[{sec:CFG.levels[lv].sections[+i]}],+n)},
