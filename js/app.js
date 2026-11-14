@@ -65,7 +65,7 @@ K.selectedReading=null;K.selectedMeaning=null
 }
 var pct=Math.round(K.i/K.questions.length*100);
 var h='<div class="bar"><b>Tes kanji</b><button class="x" data-a="khome">✕</button></div><div class="k-progress-head"><span>Pertanyaan '+(K.i+1)+' / '+K.questions.length+'</span><strong>'+pct+'%</strong></div><div class="k-progress"><i style="width:'+pct+'%"></i></div><div class="kanji-card k-test-card"><span class="k-card-label">Tentukan bacaan dan arti</span><div class="kanji-word">'+esc(x.word)+'</div></div>';
-h+='<section class="k-question-group"><h3>1. Pilih penulisan hiragana yang benar</h3><div class="k-options">';
+h+='<section class="k-question-group"><h3>1. Pilih salah satu bacaan hiragana yang benar</h3><div class="k-options">';
 K.readingOpts.forEach(function(r,i){h+='<button class="k-option '+(K.selectedReading===r?'selected':'')+'" data-a="kpick|reading|'+r+'"><span>'+String.fromCharCode(65+i)+'</span>'+esc(r)+'</button>'});
 h+='</div></section><section class="k-question-group"><h3>2. Pilih arti bahasa Indonesia</h3><div class="k-options">';
 K.meaningOpts.forEach(function(o,i){h+='<button class="k-option '+(K.selectedMeaning===o.id?'selected':'')+'" data-a="kpick|meaning|'+o.id+'"><span>'+String.fromCharCode(65+i)+'</span>'+esc(o.meaning)+'</button>'});
