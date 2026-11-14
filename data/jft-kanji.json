@@ -757,7 +757,7 @@
     "id": 105,
     "word": "夕方",
     "reading": "ゆうがた",
-    "meaning": "sore",
+    "meaning": "sore menjelang malam",
     "level": "Shokyu 1"
   },
   {
@@ -1079,7 +1079,7 @@
     "id": 151,
     "word": "受付",
     "reading": "うけつけ",
-    "meaning": "resepsionis / loket",
+    "meaning": "meja penerimaan / loket pendaftaran",
     "level": "Shokyu 1"
   },
   {
@@ -1252,9 +1252,9 @@
   },
   {
     "id": 175,
-    "word": "説明",
-    "reading": "せつめい",
-    "meaning": "penjelasan",
+    "word": "説明する",
+    "reading": "せつめいする",
+    "meaning": "menjelaskan",
     "level": "Shokyu 1"
   },
   {
@@ -1308,16 +1308,16 @@
   },
   {
     "id": 182,
-    "word": "参加",
-    "reading": "さんか",
-    "meaning": "partisipasi",
+    "word": "参加する",
+    "reading": "さんかする",
+    "meaning": "ikut berpartisipasi / mengikuti",
     "level": "Shokyu 1"
   },
   {
     "id": 183,
-    "word": "用意",
-    "reading": "ようい",
-    "meaning": "persiapan",
+    "word": "用意する",
+    "reading": "よういする",
+    "meaning": "menyiapkan",
     "level": "Shokyu 1"
   },
   {
@@ -1450,7 +1450,7 @@
     "id": 202,
     "word": "苦手",
     "reading": "にがて",
-    "meaning": "tidak pandai / kurang suka",
+    "meaning": "kurang mahir / tidak pandai; kurang suka (bergantung konteks)",
     "level": "Shokyu 1"
   },
   {
@@ -1562,7 +1562,7 @@
     "id": 217,
     "word": "別に",
     "reading": "べつに",
-    "meaning": "tidak terlalu / secara khusus",
+    "meaning": "tidak secara khusus (umumnya digunakan dalam kalimat negatif)",
     "level": "Shokyu 1"
   },
   {
@@ -1672,16 +1672,16 @@
   },
   {
     "id": 233,
-    "word": "記入",
-    "reading": "きにゅう",
-    "meaning": "pengisian (formulir)",
+    "word": "記入する",
+    "reading": "きにゅうする",
+    "meaning": "mengisi (formulir)",
     "level": "Shokyu 1"
   },
   {
     "id": 234,
     "word": "持って行く",
     "reading": "もっていく",
-    "meaning": "membawa pergi",
+    "meaning": "membawa (ke suatu tempat)",
     "level": "Shokyu 1"
   },
   {
@@ -1763,9 +1763,9 @@
   },
   {
     "id": 246,
-    "word": "運動",
-    "reading": "うんどう",
-    "meaning": "olahraga",
+    "word": "運動する",
+    "reading": "うんどうする",
+    "meaning": "berolahraga",
     "level": "Shokyu 1"
   },
   {
@@ -1910,9 +1910,9 @@
   },
   {
     "id": 267,
-    "word": "合格",
-    "reading": "ごうかく",
-    "meaning": "lulus",
+    "word": "合格する",
+    "reading": "ごうかくする",
+    "meaning": "lulus (ujian)",
     "level": "Shokyu 1"
   },
   {
@@ -3153,5 +3153,44 @@
     "reading": "りゅうがくする",
     "meaning": "belajar di luar negeri",
     "level": "Shokyu 2"
+  },
+  {
+    "id": 450,
+    "word": "忙しい",
+    "reading": "いそがしい",
+    "meaning": "sibuk",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 451,
+    "word": "働く",
+    "reading": "はたらく",
+    "meaning": "bekerja",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 452,
+    "word": "作る",
+    "reading": "つくる",
+    "meaning": "membuat / menanam (tanaman)",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 453,
+    "word": "～人",
+    "reading": "～にん・～じん",
+    "readings": [
+      "～にん",
+      "～じん"
+    ],
+    "meaning": "akhiran penghitung orang（～にん） / penanda kebangsaan（～じん）",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 454,
+    "word": "生まれる",
+    "reading": "うまれる",
+    "meaning": "lahir",
+    "level": "Shokyu 1"
   }
 ]
