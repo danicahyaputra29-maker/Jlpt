@@ -59,7 +59,9 @@ show(h+btn('Tes lagi','kstart|test','pri')+btn('Kembali','khome'));return
 }
 if(!K.readingOpts||K.currentId!==x.id){
 K.currentId=x.id;
-var correctReadings=(x.readings&&x.readings.length)?x.readings:[x.reading];\nvar readingPool=[];K.items.forEach(function(y){var rs=(y.readings&&y.readings.length)?y.readings:[y.reading];rs.forEach(function(r){if(correctReadings.indexOf(r)===-1&&readingPool.indexOf(r)===-1)readingPool.push(r)})});\nK.readingOpts=shuffle(correctReadings.concat(shuffle(readingPool).slice(0,Math.max(0,4-correctReadings.length))));
+var correctReadings=(x.readings&&x.readings.length)?x.readings:[x.reading];
+var readingPool=[];K.items.forEach(function(y){var rs=(y.readings&&y.readings.length)?y.readings:[y.reading];rs.forEach(function(r){if(correctReadings.indexOf(r)===-1&&readingPool.indexOf(r)===-1)readingPool.push(r)})});
+K.readingOpts=shuffle(correctReadings.concat(shuffle(readingPool).slice(0,Math.max(0,4-correctReadings.length))));
 K.meaningOpts=shuffle([x].concat(shuffle(K.items.filter(function(y){return y.id!==x.id&&y.meaning!==x.meaning})).slice(0,3)));
 K.selectedReading=null;K.selectedMeaning=null
 }
@@ -77,7 +79,8 @@ function kpick(type,id){if(type==='reading')K.selectedReading=id;else K.selected
 function knexttest(){
 if(K.selectedReading==null||K.selectedMeaning==null){alert('Pilih satu jawaban untuk bacaan dan satu jawaban untuk arti.');return}
 var x=K.questions[K.i];
-var validReadings=(x.readings&&x.readings.length)?x.readings:[x.reading];\nK.answers.push({reading:validReadings.indexOf(K.selectedReading)!==-1,meaning:K.selectedMeaning===x.id});
+var validReadings=(x.readings&&x.readings.length)?x.readings:[x.reading];
+K.answers.push({reading:validReadings.indexOf(K.selectedReading)!==-1,meaning:K.selectedMeaning===x.id});
 K.i++;K.currentId=null;K.readingOpts=null;K.meaningOpts=null;K.selectedReading=null;K.selectedMeaning=null;ktest()
 }
 
