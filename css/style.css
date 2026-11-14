@@ -17,3 +17,9 @@ h1{font-size:26px;margin:8px 0}h2{font-size:21px}h3{font-size:17px;margin:22px 0
 .op input{width:20px;height:20px;accent-color:var(--ac)}
 .rv.ok{border-left:5px solid var(--ok)}.rv.ng{border-left:5px solid var(--ng)}
 .sc{font-size:34px;font-weight:700;color:var(--ac)}.err{color:var(--ng)}
+
+
+.kanji-card{background:var(--card);border:1px solid var(--ln);border-radius:12px;min-height:220px;margin:18px 0;padding:24px 14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:16px}
+.kanji-word{font-size:clamp(42px,12vw,64px);font-weight:700;line-height:1.35}
+.kanji-answer{display:flex;flex-direction:column;gap:8px;color:var(--mut);font-size:19px}
+.kanji-answer strong{font-size:22px;color:var(--ink)}
