@@ -1,0 +1,3110 @@
+[
+  {
+    "id": 1,
+    "word": "名前",
+    "reading": "なまえ",
+    "meaning": "nama",
+    "level": "Nyumon"
+  },
+  {
+    "id": 2,
+    "word": "国",
+    "reading": "くに",
+    "meaning": "negara",
+    "level": "Nyumon"
+  },
+  {
+    "id": 3,
+    "word": "私",
+    "reading": "わたし",
+    "meaning": "saya",
+    "level": "Nyumon"
+  },
+  {
+    "id": 4,
+    "word": "父",
+    "reading": "ちち",
+    "meaning": "ayah",
+    "level": "Nyumon"
+  },
+  {
+    "id": 5,
+    "word": "母",
+    "reading": "はは",
+    "meaning": "ibu",
+    "level": "Nyumon"
+  },
+  {
+    "id": 6,
+    "word": "子ども",
+    "reading": "こども",
+    "meaning": "anak",
+    "level": "Nyumon"
+  },
+  {
+    "id": 7,
+    "word": "日本",
+    "reading": "にほん",
+    "meaning": "Jepang",
+    "level": "Nyumon"
+  },
+  {
+    "id": 8,
+    "word": "水",
+    "reading": "みず",
+    "meaning": "air",
+    "level": "Nyumon"
+  },
+  {
+    "id": 9,
+    "word": "食べる",
+    "reading": "たべる",
+    "meaning": "makan",
+    "level": "Nyumon"
+  },
+  {
+    "id": 10,
+    "word": "飲む",
+    "reading": "のむ",
+    "meaning": "minum",
+    "level": "Nyumon"
+  },
+  {
+    "id": 11,
+    "word": "魚",
+    "reading": "さかな",
+    "meaning": "ikan",
+    "level": "Nyumon"
+  },
+  {
+    "id": 12,
+    "word": "肉",
+    "reading": "にく",
+    "meaning": "daging",
+    "level": "Nyumon"
+  },
+  {
+    "id": 13,
+    "word": "好き",
+    "reading": "すき",
+    "meaning": "suka",
+    "level": "Nyumon"
+  },
+  {
+    "id": 14,
+    "word": "家",
+    "reading": "いえ",
+    "meaning": "rumah",
+    "level": "Nyumon"
+  },
+  {
+    "id": 15,
+    "word": "新しい",
+    "reading": "あたらしい",
+    "meaning": "baru",
+    "level": "Nyumon"
+  },
+  {
+    "id": 16,
+    "word": "広い",
+    "reading": "ひろい",
+    "meaning": "luas",
+    "level": "Nyumon"
+  },
+  {
+    "id": 17,
+    "word": "古い",
+    "reading": "ふるい",
+    "meaning": "lama / tua",
+    "level": "Nyumon"
+  },
+  {
+    "id": 18,
+    "word": "上",
+    "reading": "うえ",
+    "meaning": "atas",
+    "level": "Nyumon"
+  },
+  {
+    "id": 19,
+    "word": "下",
+    "reading": "した",
+    "meaning": "bawah",
+    "level": "Nyumon"
+  },
+  {
+    "id": 20,
+    "word": "中",
+    "reading": "なか",
+    "meaning": "dalam / tengah",
+    "level": "Nyumon"
+  },
+  {
+    "id": 21,
+    "word": "月曜日",
+    "reading": "げつようび",
+    "meaning": "Senin",
+    "level": "Nyumon"
+  },
+  {
+    "id": 22,
+    "word": "火曜日",
+    "reading": "かようび",
+    "meaning": "Selasa",
+    "level": "Nyumon"
+  },
+  {
+    "id": 23,
+    "word": "水曜日",
+    "reading": "すいようび",
+    "meaning": "Rabu",
+    "level": "Nyumon"
+  },
+  {
+    "id": 24,
+    "word": "木曜日",
+    "reading": "もくようび",
+    "meaning": "Kamis",
+    "level": "Nyumon"
+  },
+  {
+    "id": 25,
+    "word": "金曜日",
+    "reading": "きんようび",
+    "meaning": "Jumat",
+    "level": "Nyumon"
+  },
+  {
+    "id": 26,
+    "word": "土曜日",
+    "reading": "どようび",
+    "meaning": "Sabtu",
+    "level": "Nyumon"
+  },
+  {
+    "id": 27,
+    "word": "日曜日",
+    "reading": "にちようび",
+    "meaning": "Minggu",
+    "level": "Nyumon"
+  },
+  {
+    "id": 28,
+    "word": "朝",
+    "reading": "あさ",
+    "meaning": "pagi",
+    "level": "Nyumon"
+  },
+  {
+    "id": 29,
+    "word": "昼",
+    "reading": "ひる",
+    "meaning": "siang",
+    "level": "Nyumon"
+  },
+  {
+    "id": 30,
+    "word": "夜",
+    "reading": "よる",
+    "meaning": "malam",
+    "level": "Nyumon"
+  },
+  {
+    "id": 31,
+    "word": "～時",
+    "reading": "～じ",
+    "meaning": "pukul / jam",
+    "level": "Nyumon"
+  },
+  {
+    "id": 32,
+    "word": "～分",
+    "reading": "～ふん・ぷん",
+    "meaning": "menit",
+    "level": "Nyumon"
+  },
+  {
+    "id": 33,
+    "word": "～半",
+    "reading": "～はん",
+    "meaning": "setengah",
+    "level": "Nyumon"
+  },
+  {
+    "id": 34,
+    "word": "～枚",
+    "reading": "～まい",
+    "meaning": "lembar (penghitung)",
+    "level": "Nyumon"
+  },
+  {
+    "id": 35,
+    "word": "読む",
+    "reading": "よむ",
+    "meaning": "membaca",
+    "level": "Nyumon"
+  },
+  {
+    "id": 36,
+    "word": "聞く",
+    "reading": "きく",
+    "meaning": "mendengar / bertanya",
+    "level": "Nyumon"
+  },
+  {
+    "id": 37,
+    "word": "見る",
+    "reading": "みる",
+    "meaning": "melihat",
+    "level": "Nyumon"
+  },
+  {
+    "id": 38,
+    "word": "本",
+    "reading": "ほん",
+    "meaning": "buku",
+    "level": "Nyumon"
+  },
+  {
+    "id": 39,
+    "word": "友だち",
+    "reading": "ともだち",
+    "meaning": "teman",
+    "level": "Nyumon"
+  },
+  {
+    "id": 40,
+    "word": "何",
+    "reading": "なに・なん",
+    "meaning": "apa",
+    "level": "Nyumon"
+  },
+  {
+    "id": 41,
+    "word": "～年",
+    "reading": "～ねん",
+    "meaning": "tahun",
+    "level": "Nyumon"
+  },
+  {
+    "id": 42,
+    "word": "～月",
+    "reading": "～がつ",
+    "meaning": "bulan (nama bulan)",
+    "level": "Nyumon"
+  },
+  {
+    "id": 43,
+    "word": "～日",
+    "reading": "～にち",
+    "meaning": "tanggal / hari",
+    "level": "Nyumon"
+  },
+  {
+    "id": 44,
+    "word": "今日",
+    "reading": "きょう",
+    "meaning": "hari ini",
+    "level": "Nyumon"
+  },
+  {
+    "id": 45,
+    "word": "今週",
+    "reading": "こんしゅう",
+    "meaning": "minggu ini",
+    "level": "Nyumon"
+  },
+  {
+    "id": 46,
+    "word": "今度",
+    "reading": "こんど",
+    "meaning": "kali ini / berikutnya",
+    "level": "Nyumon"
+  },
+  {
+    "id": 47,
+    "word": "東",
+    "reading": "ひがし",
+    "meaning": "timur",
+    "level": "Nyumon"
+  },
+  {
+    "id": 48,
+    "word": "西",
+    "reading": "にし",
+    "meaning": "barat",
+    "level": "Nyumon"
+  },
+  {
+    "id": 49,
+    "word": "南",
+    "reading": "みなみ",
+    "meaning": "selatan",
+    "level": "Nyumon"
+  },
+  {
+    "id": 50,
+    "word": "北",
+    "reading": "きた",
+    "meaning": "utara",
+    "level": "Nyumon"
+  },
+  {
+    "id": 51,
+    "word": "会社",
+    "reading": "かいしゃ",
+    "meaning": "perusahaan",
+    "level": "Nyumon"
+  },
+  {
+    "id": 52,
+    "word": "来る",
+    "reading": "くる",
+    "meaning": "datang",
+    "level": "Nyumon"
+  },
+  {
+    "id": 53,
+    "word": "行く",
+    "reading": "いく",
+    "meaning": "pergi",
+    "level": "Nyumon"
+  },
+  {
+    "id": 54,
+    "word": "乗る",
+    "reading": "のる",
+    "meaning": "naik kendaraan",
+    "level": "Nyumon"
+  },
+  {
+    "id": 55,
+    "word": "大きい",
+    "reading": "おおきい",
+    "meaning": "besar",
+    "level": "Nyumon"
+  },
+  {
+    "id": 56,
+    "word": "小さい",
+    "reading": "ちいさい",
+    "meaning": "kecil",
+    "level": "Nyumon"
+  },
+  {
+    "id": 57,
+    "word": "高い",
+    "reading": "たかい",
+    "meaning": "tinggi / mahal",
+    "level": "Nyumon"
+  },
+  {
+    "id": 58,
+    "word": "低い",
+    "reading": "ひくい",
+    "meaning": "rendah",
+    "level": "Nyumon"
+  },
+  {
+    "id": 59,
+    "word": "前",
+    "reading": "まえ",
+    "meaning": "depan / sebelum",
+    "level": "Nyumon"
+  },
+  {
+    "id": 60,
+    "word": "後ろ",
+    "reading": "うしろ",
+    "meaning": "belakang",
+    "level": "Nyumon"
+  },
+  {
+    "id": 61,
+    "word": "横",
+    "reading": "よこ",
+    "meaning": "samping",
+    "level": "Nyumon"
+  },
+  {
+    "id": 62,
+    "word": "入口",
+    "reading": "いりぐち",
+    "meaning": "pintu masuk",
+    "level": "Nyumon"
+  },
+  {
+    "id": 63,
+    "word": "出口",
+    "reading": "でぐち",
+    "meaning": "pintu keluar",
+    "level": "Nyumon"
+  },
+  {
+    "id": 64,
+    "word": "～階",
+    "reading": "～かい",
+    "meaning": "lantai (gedung)",
+    "level": "Nyumon"
+  },
+  {
+    "id": 65,
+    "word": "押す",
+    "reading": "おす",
+    "meaning": "menekan / mendorong",
+    "level": "Nyumon"
+  },
+  {
+    "id": 66,
+    "word": "引く",
+    "reading": "ひく",
+    "meaning": "menarik",
+    "level": "Nyumon"
+  },
+  {
+    "id": 67,
+    "word": "安い",
+    "reading": "やすい",
+    "meaning": "murah",
+    "level": "Nyumon"
+  },
+  {
+    "id": 68,
+    "word": "一",
+    "reading": "いち",
+    "meaning": "satu",
+    "level": "Nyumon"
+  },
+  {
+    "id": 69,
+    "word": "二",
+    "reading": "に",
+    "meaning": "dua",
+    "level": "Nyumon"
+  },
+  {
+    "id": 70,
+    "word": "三",
+    "reading": "さん",
+    "meaning": "tiga",
+    "level": "Nyumon"
+  },
+  {
+    "id": 71,
+    "word": "四",
+    "reading": "よん・し",
+    "meaning": "empat",
+    "level": "Nyumon"
+  },
+  {
+    "id": 72,
+    "word": "五",
+    "reading": "ご",
+    "meaning": "lima",
+    "level": "Nyumon"
+  },
+  {
+    "id": 73,
+    "word": "六",
+    "reading": "ろく",
+    "meaning": "enam",
+    "level": "Nyumon"
+  },
+  {
+    "id": 74,
+    "word": "七",
+    "reading": "なな・しち",
+    "meaning": "tujuh",
+    "level": "Nyumon"
+  },
+  {
+    "id": 75,
+    "word": "八",
+    "reading": "はち",
+    "meaning": "delapan",
+    "level": "Nyumon"
+  },
+  {
+    "id": 76,
+    "word": "九",
+    "reading": "きゅう・く",
+    "meaning": "sembilan",
+    "level": "Nyumon"
+  },
+  {
+    "id": 77,
+    "word": "十",
+    "reading": "じゅう",
+    "meaning": "sepuluh",
+    "level": "Nyumon"
+  },
+  {
+    "id": 78,
+    "word": "百",
+    "reading": "ひゃく",
+    "meaning": "seratus",
+    "level": "Nyumon"
+  },
+  {
+    "id": 79,
+    "word": "千",
+    "reading": "せん",
+    "meaning": "seribu",
+    "level": "Nyumon"
+  },
+  {
+    "id": 80,
+    "word": "万",
+    "reading": "まん",
+    "meaning": "sepuluh ribu",
+    "level": "Nyumon"
+  },
+  {
+    "id": 81,
+    "word": "～円",
+    "reading": "～えん",
+    "meaning": "yen",
+    "level": "Nyumon"
+  },
+  {
+    "id": 82,
+    "word": "休み",
+    "reading": "やすみ",
+    "meaning": "libur / istirahat",
+    "level": "Nyumon"
+  },
+  {
+    "id": 83,
+    "word": "映画",
+    "reading": "えいが",
+    "meaning": "film",
+    "level": "Nyumon"
+  },
+  {
+    "id": 84,
+    "word": "日本語",
+    "reading": "にほんご",
+    "meaning": "bahasa Jepang",
+    "level": "Nyumon"
+  },
+  {
+    "id": 85,
+    "word": "勉強",
+    "reading": "べんきょう",
+    "meaning": "belajar",
+    "level": "Nyumon"
+  },
+  {
+    "id": 86,
+    "word": "買う",
+    "reading": "かう",
+    "meaning": "membeli",
+    "level": "Nyumon"
+  },
+  {
+    "id": 87,
+    "word": "温泉",
+    "reading": "おんせん",
+    "meaning": "pemandian air panas",
+    "level": "Nyumon"
+  },
+  {
+    "id": 88,
+    "word": "予定",
+    "reading": "よてい",
+    "meaning": "rencana / jadwal",
+    "level": "Nyumon"
+  },
+  {
+    "id": 89,
+    "word": "来週",
+    "reading": "らいしゅう",
+    "meaning": "minggu depan",
+    "level": "Nyumon"
+  },
+  {
+    "id": 90,
+    "word": "会う",
+    "reading": "あう",
+    "meaning": "bertemu",
+    "level": "Nyumon"
+  },
+  {
+    "id": 91,
+    "word": "入る",
+    "reading": "はいる",
+    "meaning": "masuk",
+    "level": "Nyumon"
+  },
+  {
+    "id": 92,
+    "word": "旅行",
+    "reading": "りょこう",
+    "meaning": "perjalanan / wisata",
+    "level": "Nyumon"
+  },
+  {
+    "id": 93,
+    "word": "学生",
+    "reading": "がくせい",
+    "meaning": "siswa / mahasiswa",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 94,
+    "word": "学校",
+    "reading": "がっこう",
+    "meaning": "sekolah",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 95,
+    "word": "生活",
+    "reading": "せいかつ",
+    "meaning": "kehidupan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 96,
+    "word": "去年",
+    "reading": "きょねん",
+    "meaning": "tahun lalu",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 97,
+    "word": "先週",
+    "reading": "せんしゅう",
+    "meaning": "minggu lalu",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 98,
+    "word": "仕事",
+    "reading": "しごと",
+    "meaning": "pekerjaan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 99,
+    "word": "元気",
+    "reading": "げんき",
+    "meaning": "sehat / bersemangat",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 100,
+    "word": "人",
+    "reading": "ひと",
+    "meaning": "orang",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 101,
+    "word": "日本人",
+    "reading": "にほんじん",
+    "meaning": "orang Jepang",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 102,
+    "word": "２人",
+    "reading": "ふたり",
+    "meaning": "dua orang",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 103,
+    "word": "犬",
+    "reading": "いぬ",
+    "meaning": "anjing",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 104,
+    "word": "家族",
+    "reading": "かぞく",
+    "meaning": "keluarga",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 105,
+    "word": "夕方",
+    "reading": "ゆうがた",
+    "meaning": "sore",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 106,
+    "word": "英語",
+    "reading": "えいご",
+    "meaning": "bahasa Inggris",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 107,
+    "word": "音楽",
+    "reading": "おんがく",
+    "meaning": "musik",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 108,
+    "word": "習う",
+    "reading": "ならう",
+    "meaning": "belajar (dari guru)",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 109,
+    "word": "話す",
+    "reading": "はなす",
+    "meaning": "berbicara",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 110,
+    "word": "出かける",
+    "reading": "でかける",
+    "meaning": "pergi keluar",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 111,
+    "word": "春",
+    "reading": "はる",
+    "meaning": "musim semi",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 112,
+    "word": "夏",
+    "reading": "なつ",
+    "meaning": "musim panas",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 113,
+    "word": "秋",
+    "reading": "あき",
+    "meaning": "musim gugur",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 114,
+    "word": "冬",
+    "reading": "ふゆ",
+    "meaning": "musim dingin",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 115,
+    "word": "花",
+    "reading": "はな",
+    "meaning": "bunga",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 116,
+    "word": "同じ",
+    "reading": "おなじ",
+    "meaning": "sama",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 117,
+    "word": "暑い",
+    "reading": "あつい",
+    "meaning": "panas (cuaca)",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 118,
+    "word": "寒い",
+    "reading": "さむい",
+    "meaning": "dingin (cuaca)",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 119,
+    "word": "天気",
+    "reading": "てんき",
+    "meaning": "cuaca",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 120,
+    "word": "晴れ",
+    "reading": "はれ",
+    "meaning": "cerah",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 121,
+    "word": "雨",
+    "reading": "あめ",
+    "meaning": "hujan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 122,
+    "word": "風",
+    "reading": "かぜ",
+    "meaning": "angin",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 123,
+    "word": "今",
+    "reading": "いま",
+    "meaning": "sekarang",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 124,
+    "word": "昨日",
+    "reading": "きのう",
+    "meaning": "kemarin",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 125,
+    "word": "明日",
+    "reading": "あした",
+    "meaning": "besok",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 126,
+    "word": "毎日",
+    "reading": "まいにち",
+    "meaning": "setiap hari",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 127,
+    "word": "強い",
+    "reading": "つよい",
+    "meaning": "kuat",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 128,
+    "word": "町",
+    "reading": "まち",
+    "meaning": "kota / daerah",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 129,
+    "word": "店",
+    "reading": "みせ",
+    "meaning": "toko",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 130,
+    "word": "食堂",
+    "reading": "しょくどう",
+    "meaning": "kantin / ruang makan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 131,
+    "word": "便利",
+    "reading": "べんり",
+    "meaning": "praktis",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 132,
+    "word": "不便",
+    "reading": "ふべん",
+    "meaning": "tidak praktis",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 133,
+    "word": "静か",
+    "reading": "しずか",
+    "meaning": "tenang / sepi",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 134,
+    "word": "有名",
+    "reading": "ゆうめい",
+    "meaning": "terkenal",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 135,
+    "word": "多い",
+    "reading": "おおい",
+    "meaning": "banyak",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 136,
+    "word": "少ない",
+    "reading": "すくない",
+    "meaning": "sedikit",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 137,
+    "word": "遠い",
+    "reading": "とおい",
+    "meaning": "jauh",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 138,
+    "word": "道",
+    "reading": "みち",
+    "meaning": "jalan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 139,
+    "word": "公園",
+    "reading": "こうえん",
+    "meaning": "taman",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 140,
+    "word": "銀行",
+    "reading": "ぎんこう",
+    "meaning": "bank",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 141,
+    "word": "お寺",
+    "reading": "おてら",
+    "meaning": "kuil Buddha",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 142,
+    "word": "神社",
+    "reading": "じんじゃ",
+    "meaning": "kuil Shinto",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 143,
+    "word": "右",
+    "reading": "みぎ",
+    "meaning": "kanan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 144,
+    "word": "左",
+    "reading": "ひだり",
+    "meaning": "kiri",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 145,
+    "word": "近く",
+    "reading": "ちかく",
+    "meaning": "dekat / sekitar",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 146,
+    "word": "車",
+    "reading": "くるま",
+    "meaning": "mobil",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 147,
+    "word": "送る",
+    "reading": "おくる",
+    "meaning": "mengirim / mengantar",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 148,
+    "word": "時間",
+    "reading": "じかん",
+    "meaning": "waktu",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 149,
+    "word": "場所",
+    "reading": "ばしょ",
+    "meaning": "tempat",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 150,
+    "word": "駅",
+    "reading": "えき",
+    "meaning": "stasiun",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 151,
+    "word": "受付",
+    "reading": "うけつけ",
+    "meaning": "resepsionis / loket",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 152,
+    "word": "門",
+    "reading": "もん",
+    "meaning": "gerbang",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 153,
+    "word": "電車",
+    "reading": "でんしゃ",
+    "meaning": "kereta listrik",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 154,
+    "word": "待つ",
+    "reading": "まつ",
+    "meaning": "menunggu",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 155,
+    "word": "止まる",
+    "reading": "とまる",
+    "meaning": "berhenti",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 156,
+    "word": "着く",
+    "reading": "つく",
+    "meaning": "tiba",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 157,
+    "word": "急ぐ",
+    "reading": "いそぐ",
+    "meaning": "bergegas",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 158,
+    "word": "お金",
+    "reading": "おかね",
+    "meaning": "uang",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 159,
+    "word": "食事",
+    "reading": "しょくじ",
+    "meaning": "makan / hidangan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 160,
+    "word": "博物館",
+    "reading": "はくぶつかん",
+    "meaning": "museum",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 161,
+    "word": "動物園",
+    "reading": "どうぶつえん",
+    "meaning": "kebun binatang",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 162,
+    "word": "試合",
+    "reading": "しあい",
+    "meaning": "pertandingan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 163,
+    "word": "楽しい",
+    "reading": "たのしい",
+    "meaning": "menyenangkan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 164,
+    "word": "難しい",
+    "reading": "むずかしい",
+    "meaning": "sulit",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 165,
+    "word": "登る",
+    "reading": "のぼる",
+    "meaning": "mendaki / naik",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 166,
+    "word": "高校",
+    "reading": "こうこう",
+    "meaning": "SMA",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 167,
+    "word": "大学",
+    "reading": "だいがく",
+    "meaning": "universitas",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 168,
+    "word": "練習",
+    "reading": "れんしゅう",
+    "meaning": "latihan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 169,
+    "word": "漢字",
+    "reading": "かんじ",
+    "meaning": "kanji",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 170,
+    "word": "無料",
+    "reading": "むりょう",
+    "meaning": "gratis",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 171,
+    "word": "言う",
+    "reading": "いう",
+    "meaning": "mengatakan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 172,
+    "word": "書く",
+    "reading": "かく",
+    "meaning": "menulis",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 173,
+    "word": "貸す",
+    "reading": "かす",
+    "meaning": "meminjamkan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 174,
+    "word": "教える",
+    "reading": "おしえる",
+    "meaning": "mengajar / memberi tahu",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 175,
+    "word": "説明",
+    "reading": "せつめい",
+    "meaning": "penjelasan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 176,
+    "word": "午前",
+    "reading": "ごぜん",
+    "meaning": "pagi / AM",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 177,
+    "word": "午後",
+    "reading": "ごご",
+    "meaning": "siang / PM",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 178,
+    "word": "教科書",
+    "reading": "きょうかしょ",
+    "meaning": "buku pelajaran",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 179,
+    "word": "教室",
+    "reading": "きょうしつ",
+    "meaning": "ruang kelas",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 180,
+    "word": "先生",
+    "reading": "せんせい",
+    "meaning": "guru",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 181,
+    "word": "全部",
+    "reading": "ぜんぶ",
+    "meaning": "semua",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 182,
+    "word": "参加",
+    "reading": "さんか",
+    "meaning": "partisipasi",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 183,
+    "word": "用意",
+    "reading": "ようい",
+    "meaning": "persiapan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 184,
+    "word": "飲み物",
+    "reading": "のみもの",
+    "meaning": "minuman",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 185,
+    "word": "お茶",
+    "reading": "おちゃ",
+    "meaning": "teh",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 186,
+    "word": "お酒",
+    "reading": "おさけ",
+    "meaning": "minuman beralkohol",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 187,
+    "word": "材料",
+    "reading": "ざいりょう",
+    "meaning": "bahan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 188,
+    "word": "野菜",
+    "reading": "やさい",
+    "meaning": "sayuran",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 189,
+    "word": "牛肉",
+    "reading": "ぎゅうにく",
+    "meaning": "daging sapi",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 190,
+    "word": "豚肉",
+    "reading": "ぶたにく",
+    "meaning": "daging babi",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 191,
+    "word": "皿",
+    "reading": "さら",
+    "meaning": "piring",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 192,
+    "word": "売る",
+    "reading": "うる",
+    "meaning": "menjual",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 193,
+    "word": "体",
+    "reading": "からだ",
+    "meaning": "tubuh",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 194,
+    "word": "卵",
+    "reading": "たまご",
+    "meaning": "telur",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 195,
+    "word": "料理",
+    "reading": "りょうり",
+    "meaning": "masakan / memasak",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 196,
+    "word": "お湯",
+    "reading": "おゆ",
+    "meaning": "air panas",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 197,
+    "word": "調理方法",
+    "reading": "ちょうりほうほう",
+    "meaning": "cara memasak",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 198,
+    "word": "少し",
+    "reading": "すこし",
+    "meaning": "sedikit",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 199,
+    "word": "味",
+    "reading": "あじ",
+    "meaning": "rasa",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 200,
+    "word": "甘い",
+    "reading": "あまい",
+    "meaning": "manis",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 201,
+    "word": "辛い",
+    "reading": "からい",
+    "meaning": "pedas",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 202,
+    "word": "苦手",
+    "reading": "にがて",
+    "meaning": "tidak pandai / kurang suka",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 203,
+    "word": "数字",
+    "reading": "すうじ",
+    "meaning": "angka",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 204,
+    "word": "電気",
+    "reading": "でんき",
+    "meaning": "listrik",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 205,
+    "word": "音",
+    "reading": "おと",
+    "meaning": "suara / bunyi",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 206,
+    "word": "机",
+    "reading": "つくえ",
+    "meaning": "meja",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 207,
+    "word": "都合",
+    "reading": "つごう",
+    "meaning": "keadaan / ketersediaan waktu",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 208,
+    "word": "悪い",
+    "reading": "わるい",
+    "meaning": "buruk",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 209,
+    "word": "動く",
+    "reading": "うごく",
+    "meaning": "bergerak",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 210,
+    "word": "使う",
+    "reading": "つかう",
+    "meaning": "menggunakan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 211,
+    "word": "終わる",
+    "reading": "おわる",
+    "meaning": "selesai",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 212,
+    "word": "お願い",
+    "reading": "おねがい",
+    "meaning": "permohonan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 213,
+    "word": "用事",
+    "reading": "ようじ",
+    "meaning": "urusan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 214,
+    "word": "氏名",
+    "reading": "しめい",
+    "meaning": "nama lengkap",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 215,
+    "word": "理由",
+    "reading": "りゆう",
+    "meaning": "alasan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 216,
+    "word": "連絡先",
+    "reading": "れんらくさき",
+    "meaning": "kontak",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 217,
+    "word": "別に",
+    "reading": "べつに",
+    "meaning": "tidak terlalu / secara khusus",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 218,
+    "word": "早く",
+    "reading": "はやく",
+    "meaning": "dengan cepat / lebih awal",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 219,
+    "word": "吸う",
+    "reading": "すう",
+    "meaning": "mengisap / merokok",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 220,
+    "word": "取る",
+    "reading": "とる",
+    "meaning": "mengambil",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 221,
+    "word": "帰る",
+    "reading": "かえる",
+    "meaning": "pulang",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 222,
+    "word": "伝える",
+    "reading": "つたえる",
+    "meaning": "menyampaikan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 223,
+    "word": "熱",
+    "reading": "ねつ",
+    "meaning": "demam / panas",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 224,
+    "word": "薬",
+    "reading": "くすり",
+    "meaning": "obat",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 225,
+    "word": "病気",
+    "reading": "びょうき",
+    "meaning": "penyakit / sakit",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 226,
+    "word": "病院",
+    "reading": "びょういん",
+    "meaning": "rumah sakit",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 227,
+    "word": "医者",
+    "reading": "いしゃ",
+    "meaning": "dokter",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 228,
+    "word": "住所",
+    "reading": "じゅうしょ",
+    "meaning": "alamat",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 229,
+    "word": "～才",
+    "reading": "～さい",
+    "meaning": "umur ... tahun",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 230,
+    "word": "痛い",
+    "reading": "いたい",
+    "meaning": "sakit / nyeri",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 231,
+    "word": "眠い",
+    "reading": "ねむい",
+    "meaning": "mengantuk",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 232,
+    "word": "寝る",
+    "reading": "ねる",
+    "meaning": "tidur",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 233,
+    "word": "記入",
+    "reading": "きにゅう",
+    "meaning": "pengisian (formulir)",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 234,
+    "word": "持って行く",
+    "reading": "もっていく",
+    "meaning": "membawa pergi",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 235,
+    "word": "季節",
+    "reading": "きせつ",
+    "meaning": "musim",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 236,
+    "word": "顔",
+    "reading": "かお",
+    "meaning": "wajah",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 237,
+    "word": "目",
+    "reading": "め",
+    "meaning": "mata",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 238,
+    "word": "耳",
+    "reading": "みみ",
+    "meaning": "telinga",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 239,
+    "word": "口",
+    "reading": "くち",
+    "meaning": "mulut",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 240,
+    "word": "頭",
+    "reading": "あたま",
+    "meaning": "kepala",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 241,
+    "word": "足",
+    "reading": "あし",
+    "meaning": "kaki",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 242,
+    "word": "手",
+    "reading": "て",
+    "meaning": "tangan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 243,
+    "word": "起きる",
+    "reading": "おきる",
+    "meaning": "bangun",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 244,
+    "word": "歩く",
+    "reading": "あるく",
+    "meaning": "berjalan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 245,
+    "word": "走る",
+    "reading": "はしる",
+    "meaning": "berlari",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 246,
+    "word": "運動",
+    "reading": "うんどう",
+    "meaning": "olahraga",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 247,
+    "word": "お父さん",
+    "reading": "おとうさん",
+    "meaning": "ayah (orang lain)",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 248,
+    "word": "お母さん",
+    "reading": "おかあさん",
+    "meaning": "ibu (orang lain)",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 249,
+    "word": "兄",
+    "reading": "あに",
+    "meaning": "kakak laki-laki (sendiri)",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 250,
+    "word": "お兄さん",
+    "reading": "おにいさん",
+    "meaning": "kakak laki-laki (orang lain)",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 251,
+    "word": "姉",
+    "reading": "あね",
+    "meaning": "kakak perempuan (sendiri)",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 252,
+    "word": "お姉さん",
+    "reading": "おねえさん",
+    "meaning": "kakak perempuan (orang lain)",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 253,
+    "word": "弟",
+    "reading": "おとうと",
+    "meaning": "adik laki-laki",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 254,
+    "word": "妹",
+    "reading": "いもうと",
+    "meaning": "adik perempuan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 255,
+    "word": "夫",
+    "reading": "おっと",
+    "meaning": "suami",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 256,
+    "word": "妻",
+    "reading": "つま",
+    "meaning": "istri",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 257,
+    "word": "両親",
+    "reading": "りょうしん",
+    "meaning": "orang tua",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 258,
+    "word": "男の子",
+    "reading": "おとこのこ",
+    "meaning": "anak laki-laki",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 259,
+    "word": "女の子",
+    "reading": "おんなのこ",
+    "meaning": "anak perempuan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 260,
+    "word": "お祝い",
+    "reading": "おいわい",
+    "meaning": "perayaan / ucapan selamat",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 261,
+    "word": "誕生日",
+    "reading": "たんじょうび",
+    "meaning": "ulang tahun",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 262,
+    "word": "結婚",
+    "reading": "けっこん",
+    "meaning": "pernikahan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 263,
+    "word": "時計",
+    "reading": "とけい",
+    "meaning": "jam",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 264,
+    "word": "幸せ",
+    "reading": "しあわせ",
+    "meaning": "kebahagiaan",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 265,
+    "word": "思う",
+    "reading": "おもう",
+    "meaning": "berpikir / merasa",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 266,
+    "word": "選ぶ",
+    "reading": "えらぶ",
+    "meaning": "memilih",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 267,
+    "word": "合格",
+    "reading": "ごうかく",
+    "meaning": "lulus",
+    "level": "Shokyu 1"
+  },
+  {
+    "id": 268,
+    "word": "山",
+    "reading": "やま",
+    "meaning": "gunung",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 269,
+    "word": "川",
+    "reading": "かわ",
+    "meaning": "sungai",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 270,
+    "word": "海",
+    "reading": "うみ",
+    "meaning": "laut",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 271,
+    "word": "島",
+    "reading": "しま",
+    "meaning": "pulau",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 272,
+    "word": "森",
+    "reading": "もり",
+    "meaning": "hutan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 273,
+    "word": "客",
+    "reading": "きゃく",
+    "meaning": "tamu / pelanggan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 274,
+    "word": "観光地",
+    "reading": "かんこうち",
+    "meaning": "tempat wisata",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 275,
+    "word": "意味",
+    "reading": "いみ",
+    "meaning": "arti / makna",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 276,
+    "word": "経験",
+    "reading": "けいけん",
+    "meaning": "pengalaman",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 277,
+    "word": "写真",
+    "reading": "しゃしん",
+    "meaning": "foto",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 278,
+    "word": "歌",
+    "reading": "うた",
+    "meaning": "lagu",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 279,
+    "word": "歌手",
+    "reading": "かしゅ",
+    "meaning": "penyanyi",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 280,
+    "word": "上手",
+    "reading": "じょうず",
+    "meaning": "mahir / pandai",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 281,
+    "word": "明るい",
+    "reading": "あかるい",
+    "meaning": "terang / ceria",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 282,
+    "word": "長い",
+    "reading": "ながい",
+    "meaning": "panjang",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 283,
+    "word": "短い",
+    "reading": "みじかい",
+    "meaning": "pendek",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 284,
+    "word": "着る",
+    "reading": "きる",
+    "meaning": "memakai (pakaian)",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 285,
+    "word": "立つ",
+    "reading": "たつ",
+    "meaning": "berdiri",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 286,
+    "word": "泣く",
+    "reading": "なく",
+    "meaning": "menangis",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 287,
+    "word": "注文",
+    "reading": "ちゅうもん",
+    "meaning": "pesanan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 288,
+    "word": "会計",
+    "reading": "かいけい",
+    "meaning": "pembayaran / kasir",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 289,
+    "word": "予約",
+    "reading": "よやく",
+    "meaning": "reservasi",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 290,
+    "word": "電話番号",
+    "reading": "でんわばんごう",
+    "meaning": "nomor telepon",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 291,
+    "word": "～様",
+    "reading": "～さま",
+    "meaning": "Tuan / Nyonya (sopan)",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 292,
+    "word": "ご飯",
+    "reading": "ごはん",
+    "meaning": "nasi / makanan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 293,
+    "word": "牛乳",
+    "reading": "ぎゅうにゅう",
+    "meaning": "susu sapi",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 294,
+    "word": "生",
+    "reading": "なま",
+    "meaning": "mentah / segar",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 295,
+    "word": "禁煙",
+    "reading": "きんえん",
+    "meaning": "dilarang merokok",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 296,
+    "word": "自由",
+    "reading": "じゆう",
+    "meaning": "bebas",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 297,
+    "word": "塩",
+    "reading": "しお",
+    "meaning": "garam",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 298,
+    "word": "油",
+    "reading": "あぶら",
+    "meaning": "minyak",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 299,
+    "word": "量",
+    "reading": "りょう",
+    "meaning": "jumlah / takaran",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 300,
+    "word": "～方",
+    "reading": "～かた",
+    "meaning": "cara ...",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 301,
+    "word": "～屋",
+    "reading": "～や",
+    "meaning": "toko / penjual",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 302,
+    "word": "満足",
+    "reading": "まんぞく",
+    "meaning": "puas",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 303,
+    "word": "切る",
+    "reading": "きる",
+    "meaning": "memotong",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 304,
+    "word": "焼く",
+    "reading": "やく",
+    "meaning": "memanggang / membakar",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 305,
+    "word": "入れる",
+    "reading": "いれる",
+    "meaning": "memasukkan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 306,
+    "word": "自然",
+    "reading": "しぜん",
+    "meaning": "alam",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 307,
+    "word": "交通",
+    "reading": "こうつう",
+    "meaning": "lalu lintas / transportasi",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 308,
+    "word": "船",
+    "reading": "ふね",
+    "meaning": "kapal",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 309,
+    "word": "自転車",
+    "reading": "じてんしゃ",
+    "meaning": "sepeda",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 310,
+    "word": "旅館",
+    "reading": "りょかん",
+    "meaning": "penginapan Jepang",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 311,
+    "word": "東京",
+    "reading": "とうきょう",
+    "meaning": "Tokyo",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 312,
+    "word": "計画",
+    "reading": "けいかく",
+    "meaning": "rencana",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 313,
+    "word": "遊ぶ",
+    "reading": "あそぶ",
+    "meaning": "bermain",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 314,
+    "word": "調べる",
+    "reading": "しらべる",
+    "meaning": "memeriksa / mencari tahu",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 315,
+    "word": "出発する",
+    "reading": "しゅっぱつする",
+    "meaning": "berangkat",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 316,
+    "word": "運転",
+    "reading": "うんてん",
+    "meaning": "mengemudi",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 317,
+    "word": "事故",
+    "reading": "じこ",
+    "meaning": "kecelakaan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 318,
+    "word": "故障",
+    "reading": "こしょう",
+    "meaning": "kerusakan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 319,
+    "word": "指定席",
+    "reading": "していせき",
+    "meaning": "kursi reservasi",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 320,
+    "word": "週末",
+    "reading": "しゅうまつ",
+    "meaning": "akhir pekan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 321,
+    "word": "絵",
+    "reading": "え",
+    "meaning": "gambar / lukisan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 322,
+    "word": "空",
+    "reading": "そら",
+    "meaning": "langit",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 323,
+    "word": "泳ぐ",
+    "reading": "およぐ",
+    "meaning": "berenang",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 324,
+    "word": "光る",
+    "reading": "ひかる",
+    "meaning": "bersinar",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 325,
+    "word": "到着する",
+    "reading": "とうちゃくする",
+    "meaning": "tiba",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 326,
+    "word": "お知らせ",
+    "reading": "おしらせ",
+    "meaning": "pengumuman / pemberitahuan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 327,
+    "word": "今月",
+    "reading": "こんげつ",
+    "meaning": "bulan ini",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 328,
+    "word": "水道",
+    "reading": "すいどう",
+    "meaning": "air ledeng",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 329,
+    "word": "工事",
+    "reading": "こうじ",
+    "meaning": "konstruksi / pekerjaan perbaikan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 330,
+    "word": "広場",
+    "reading": "ひろば",
+    "meaning": "lapangan / alun-alun",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 331,
+    "word": "場合",
+    "reading": "ばあい",
+    "meaning": "kasus / keadaan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 332,
+    "word": "中止",
+    "reading": "ちゅうし",
+    "meaning": "pembatalan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 333,
+    "word": "条件",
+    "reading": "じょうけん",
+    "meaning": "syarat / kondisi",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 334,
+    "word": "～以上",
+    "reading": "～いじょう",
+    "meaning": "... atau lebih",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 335,
+    "word": "開く",
+    "reading": "あく・ひらく",
+    "meaning": "terbuka / membuka",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 336,
+    "word": "生産する",
+    "reading": "せいさんする",
+    "meaning": "memproduksi",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 337,
+    "word": "来年",
+    "reading": "らいねん",
+    "meaning": "tahun depan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 338,
+    "word": "会場",
+    "reading": "かいじょう",
+    "meaning": "tempat acara",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 339,
+    "word": "世界",
+    "reading": "せかい",
+    "meaning": "dunia",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 340,
+    "word": "体験",
+    "reading": "たいけん",
+    "meaning": "pengalaman langsung",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 341,
+    "word": "国際交流",
+    "reading": "こくさいこうりゅう",
+    "meaning": "pertukaran internasional",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 342,
+    "word": "禁止",
+    "reading": "きんし",
+    "meaning": "larangan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 343,
+    "word": "紙",
+    "reading": "かみ",
+    "meaning": "kertas",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 344,
+    "word": "始まる",
+    "reading": "はじまる",
+    "meaning": "dimulai",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 345,
+    "word": "申し込む",
+    "reading": "もうしこむ",
+    "meaning": "mendaftar",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 346,
+    "word": "今年",
+    "reading": "ことし",
+    "meaning": "tahun ini",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 347,
+    "word": "昨年",
+    "reading": "さくねん",
+    "meaning": "tahun lalu",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 348,
+    "word": "毎年",
+    "reading": "まいとし・まいねん",
+    "meaning": "setiap tahun",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 349,
+    "word": "文化",
+    "reading": "ぶんか",
+    "meaning": "budaya",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 350,
+    "word": "祭り",
+    "reading": "まつり",
+    "meaning": "festival",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 351,
+    "word": "正月",
+    "reading": "しょうがつ",
+    "meaning": "Tahun Baru Jepang",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 352,
+    "word": "～式",
+    "reading": "～しき",
+    "meaning": "upacara / gaya",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 353,
+    "word": "大人",
+    "reading": "おとな",
+    "meaning": "orang dewasa",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 354,
+    "word": "米",
+    "reading": "こめ",
+    "meaning": "beras",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 355,
+    "word": "特別",
+    "reading": "とくべつ",
+    "meaning": "khusus / istimewa",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 356,
+    "word": "服",
+    "reading": "ふく",
+    "meaning": "pakaian",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 357,
+    "word": "袋",
+    "reading": "ふくろ",
+    "meaning": "kantong / tas",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 358,
+    "word": "自分",
+    "reading": "じぶん",
+    "meaning": "diri sendiri",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 359,
+    "word": "店長",
+    "reading": "てんちょう",
+    "meaning": "kepala toko",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 360,
+    "word": "全員",
+    "reading": "ぜんいん",
+    "meaning": "semua orang",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 361,
+    "word": "習慣",
+    "reading": "しゅうかん",
+    "meaning": "kebiasaan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 362,
+    "word": "普通",
+    "reading": "ふつう",
+    "meaning": "biasa",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 363,
+    "word": "暗い",
+    "reading": "くらい",
+    "meaning": "gelap",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 364,
+    "word": "怒る",
+    "reading": "おこる",
+    "meaning": "marah",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 365,
+    "word": "入院する",
+    "reading": "にゅういんする",
+    "meaning": "dirawat di rumah sakit",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 366,
+    "word": "色",
+    "reading": "いろ",
+    "meaning": "warna",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 367,
+    "word": "赤",
+    "reading": "あか",
+    "meaning": "merah",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 368,
+    "word": "青",
+    "reading": "あお",
+    "meaning": "biru",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 369,
+    "word": "黒",
+    "reading": "くろ",
+    "meaning": "hitam",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 370,
+    "word": "白",
+    "reading": "しろ",
+    "meaning": "putih",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 371,
+    "word": "女性",
+    "reading": "じょせい",
+    "meaning": "perempuan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 372,
+    "word": "男性",
+    "reading": "だんせい",
+    "meaning": "laki-laki",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 373,
+    "word": "急に",
+    "reading": "きゅうに",
+    "meaning": "tiba-tiba",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 374,
+    "word": "営業する",
+    "reading": "えいぎょうする",
+    "meaning": "beroperasi / menjalankan bisnis",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 375,
+    "word": "案内する",
+    "reading": "あんないする",
+    "meaning": "memandu / memberi petunjuk",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 376,
+    "word": "商品",
+    "reading": "しょうひん",
+    "meaning": "produk / barang dagangan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 377,
+    "word": "値段",
+    "reading": "ねだん",
+    "meaning": "harga",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 378,
+    "word": "価格",
+    "reading": "かかく",
+    "meaning": "harga / nilai",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 379,
+    "word": "消費税",
+    "reading": "しょうひぜい",
+    "meaning": "pajak konsumsi",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 380,
+    "word": "税別",
+    "reading": "ぜいべつ",
+    "meaning": "belum termasuk pajak",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 381,
+    "word": "店員",
+    "reading": "てんいん",
+    "meaning": "pegawai toko",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 382,
+    "word": "親切",
+    "reading": "しんせつ",
+    "meaning": "baik hati / ramah",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 383,
+    "word": "重い",
+    "reading": "おもい",
+    "meaning": "berat",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 384,
+    "word": "軽い",
+    "reading": "かるい",
+    "meaning": "ringan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 385,
+    "word": "変わる",
+    "reading": "かわる",
+    "meaning": "berubah",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 386,
+    "word": "市",
+    "reading": "し",
+    "meaning": "kota (administrasi)",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 387,
+    "word": "料金",
+    "reading": "りょうきん",
+    "meaning": "biaya / tarif",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 388,
+    "word": "図書館",
+    "reading": "としょかん",
+    "meaning": "perpustakaan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 389,
+    "word": "道具",
+    "reading": "どうぐ",
+    "meaning": "alat",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 390,
+    "word": "～点",
+    "reading": "～てん",
+    "meaning": "poin / buah (penilaian)",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 391,
+    "word": "必要",
+    "reading": "ひつよう",
+    "meaning": "perlu",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 392,
+    "word": "借りる",
+    "reading": "かりる",
+    "meaning": "meminjam",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 393,
+    "word": "返す",
+    "reading": "かえす",
+    "meaning": "mengembalikan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 394,
+    "word": "閉まる",
+    "reading": "しまる",
+    "meaning": "tertutup",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 395,
+    "word": "利用する",
+    "reading": "りようする",
+    "meaning": "menggunakan / memanfaatkan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 396,
+    "word": "外国",
+    "reading": "がいこく",
+    "meaning": "negara asing",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 397,
+    "word": "情報",
+    "reading": "じょうほう",
+    "meaning": "informasi",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 398,
+    "word": "相談",
+    "reading": "そうだん",
+    "meaning": "konsultasi / berdiskusi",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 399,
+    "word": "質問",
+    "reading": "しつもん",
+    "meaning": "pertanyaan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 400,
+    "word": "窓口",
+    "reading": "まどぐち",
+    "meaning": "loket",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 401,
+    "word": "郵便局",
+    "reading": "ゆうびんきょく",
+    "meaning": "kantor pos",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 402,
+    "word": "近所",
+    "reading": "きんじょ",
+    "meaning": "lingkungan sekitar",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 403,
+    "word": "自動",
+    "reading": "じどう",
+    "meaning": "otomatis",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 404,
+    "word": "洗う",
+    "reading": "あらう",
+    "meaning": "mencuci",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 405,
+    "word": "入力する",
+    "reading": "にゅうりょくする",
+    "meaning": "memasukkan data",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 406,
+    "word": "温度",
+    "reading": "おんど",
+    "meaning": "suhu",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 407,
+    "word": "危険",
+    "reading": "きけん",
+    "meaning": "bahaya",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 408,
+    "word": "～種類",
+    "reading": "～しゅるい",
+    "meaning": "... jenis",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 409,
+    "word": "消す",
+    "reading": "けす",
+    "meaning": "mematikan / menghapus",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 410,
+    "word": "捨てる",
+    "reading": "すてる",
+    "meaning": "membuang",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 411,
+    "word": "出す",
+    "reading": "だす",
+    "meaning": "mengeluarkan / menyerahkan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 412,
+    "word": "分ける",
+    "reading": "わける",
+    "meaning": "memisahkan / membagi",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 413,
+    "word": "燃える",
+    "reading": "もえる",
+    "meaning": "terbakar",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 414,
+    "word": "決める",
+    "reading": "きめる",
+    "meaning": "memutuskan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 415,
+    "word": "設定する",
+    "reading": "せっていする",
+    "meaning": "mengatur / menetapkan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 416,
+    "word": "地震",
+    "reading": "じしん",
+    "meaning": "gempa bumi",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 417,
+    "word": "台風",
+    "reading": "たいふう",
+    "meaning": "topan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 418,
+    "word": "外",
+    "reading": "そと",
+    "meaning": "luar",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 419,
+    "word": "声",
+    "reading": "こえ",
+    "meaning": "suara (manusia)",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 420,
+    "word": "危ない",
+    "reading": "あぶない",
+    "meaning": "berbahaya",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 421,
+    "word": "大切",
+    "reading": "たいせつ",
+    "meaning": "penting / berharga",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 422,
+    "word": "心配",
+    "reading": "しんぱい",
+    "meaning": "khawatir",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 423,
+    "word": "集まる",
+    "reading": "あつまる",
+    "meaning": "berkumpul",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 424,
+    "word": "進む",
+    "reading": "すすむ",
+    "meaning": "maju",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 425,
+    "word": "最近",
+    "reading": "さいきん",
+    "meaning": "akhir-akhir ini",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 426,
+    "word": "授業",
+    "reading": "じゅぎょう",
+    "meaning": "pelajaran / kelas",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 427,
+    "word": "問題",
+    "reading": "もんだい",
+    "meaning": "masalah / soal",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 428,
+    "word": "大変",
+    "reading": "たいへん",
+    "meaning": "berat / sulit",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 429,
+    "word": "困る",
+    "reading": "こまる",
+    "meaning": "kesulitan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 430,
+    "word": "違う",
+    "reading": "ちがう",
+    "meaning": "berbeda / salah",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 431,
+    "word": "慣れる",
+    "reading": "なれる",
+    "meaning": "terbiasa",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 432,
+    "word": "増える",
+    "reading": "ふえる",
+    "meaning": "bertambah",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 433,
+    "word": "笑う",
+    "reading": "わらう",
+    "meaning": "tertawa",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 434,
+    "word": "苦労する",
+    "reading": "くろうする",
+    "meaning": "mengalami kesulitan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 435,
+    "word": "希望",
+    "reading": "きぼう",
+    "meaning": "harapan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 436,
+    "word": "募集",
+    "reading": "ぼしゅう",
+    "meaning": "perekrutan / lowongan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 437,
+    "word": "特に",
+    "reading": "とくに",
+    "meaning": "terutama",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 438,
+    "word": "住む",
+    "reading": "すむ",
+    "meaning": "tinggal",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 439,
+    "word": "建てる",
+    "reading": "たてる",
+    "meaning": "membangun",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 440,
+    "word": "続ける",
+    "reading": "つづける",
+    "meaning": "melanjutkan",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 441,
+    "word": "考える",
+    "reading": "かんがえる",
+    "meaning": "berpikir",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 442,
+    "word": "役に立つ",
+    "reading": "やくにたつ",
+    "meaning": "berguna",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 443,
+    "word": "卒業する",
+    "reading": "そつぎょうする",
+    "meaning": "lulus sekolah",
+    "level": "Shokyu 2"
+  },
+  {
+    "id": 444,
+    "word": "留学する",
+    "reading": "りゅうがくする",
+    "meaning": "belajar di luar negeri",
+    "level": "Shokyu 2"
+  }
+]
