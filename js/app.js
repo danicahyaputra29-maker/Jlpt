@@ -40,19 +40,20 @@ function result(){var tot=0,ok=0,bad=[],h='<h2>Hasil '+S.lv+'</h2>',rev='';
 
 var K={items:[],pool:[],i:0,shown:false,mode:'card',score:0,questions:[],answers:[],level:'Semua'};
 function kanjiHome(){var c={'Nyumon':0,'Shokyu 1':0,'Shokyu 2':0};K.items.forEach(function(x){c[x.level]=(c[x.level]||0)+1});
-var h='<h2>Kanji JFT Basic</h2><p class="sub">Daftar kosakata Irodori · '+K.items.length+' entri</p><h3>Pilih materi</h3>'+btn('Semua tingkat ('+K.items.length+')','klevel|Semua');
-Object.keys(c).forEach(function(x){h+=btn(x+' ('+c[x]+')','klevel|'+x)});
-h+='<h3>Mode belajar</h3>'+btn('Flashcard','kstart|card','pri')+btn('Tes pilihan ganda','kstart|test','pri')+btn('← Beranda','home');show(h)}
+var h='<section class="k-hero"><div class="k-eyebrow">IRODORI · JFT-BASIC</div><h1>Kanji & Kosakata</h1><p>Latih ingatan membaca dan memahami kosakata Jepang secara bertahap.</p><div class="k-total"><strong>'+K.items.length+'</strong><span>kosakata tersedia</span></div></section><div class="k-section-title"><h3>Pilih materi</h3><span>Materi belajar</span></div><div class="k-levels">';
+h+='<button class="k-level '+(K.level==='Semua'?'active':'')+'" data-a="klevel|Semua"><span>Semua tingkat</span><strong>'+K.items.length+'</strong></button>';
+Object.keys(c).forEach(function(x){h+='<button class="k-level '+(K.level===x?'active':'')+'" data-a="klevel|'+x+'"><span>'+x+'</span><strong>'+c[x]+'</strong></button>'});
+h+='</div><div class="k-section-title"><h3>Mulai belajar</h3><span>'+(K.level==='Semua'?'Semua materi':K.level)+'</span></div><div class="k-modes"><button class="k-mode" data-a="kstart|card"><span class="k-mode-icon">あ</span><strong>Flashcard</strong><small>Lihat kanji, tebak bacaan dan artinya.</small><span class="k-mode-link">Mulai belajar →</span></button><button class="k-mode" data-a="kstart|test"><span class="k-mode-icon">✓</span><strong>Tes pilihan ganda</strong><small>Uji hafalan dengan 10 soal acak.</small><span class="k-mode-link">Mulai tes →</span></button></div>'+btn('← Kembali ke beranda','home');show(h)}
 function kLoad(){return get('data/jft-kanji.json').then(function(a){K.items=a;K.pool=a.slice();kanjiHome()})}
 function kstart(mode){K.mode=mode;K.pool=shuffle(K.items.filter(function(x){return K.level==='Semua'||x.level===K.level}));K.i=0;K.shown=false;K.answers=[];if(mode==='test'){K.questions=K.pool.slice(0,Math.min(10,K.pool.length));ktest()}else kcard()}
-function kcard(){var x=K.pool[K.i];if(!x){kanjiHome();return}var h='<div class="bar"><b>Flashcard kanji</b><span>'+(K.i+1)+' / '+K.pool.length+'</span><button class="x" data-a="khome">✕</button></div><p class="sub">'+x.level+'</p><div class="kanji-card"><div class="kanji-word">'+esc(x.word)+'</div>';
-if(K.shown)h+='<div class="kanji-answer">'+esc(x.reading)+'<strong>'+esc(x.meaning)+'</strong></div>';h+='</div>';
-if(!K.shown)h+=btn('Lihat cara baca & arti','kreveal','pri');else h+=btn('Sudah hafal','knext','pri')+btn('Belum hafal — ulangi nanti','kagain');
+function kcard(){var x=K.pool[K.i];if(!x){kanjiHome();return}var pct=Math.round(K.i/K.pool.length*100);var h='<div class="bar"><b>Flashcard</b><button class="x" data-a="khome">✕</button></div><div class="k-progress-head"><span>'+x.level+'</span><strong>'+(K.i+1)+' / '+K.pool.length+'</strong></div><div class="k-progress"><i style="width:'+pct+'%"></i></div><div class="kanji-card"><span class="k-card-label">Apa arti kosakata ini?</span><div class="kanji-word">'+esc(x.word)+'</div>';
+if(K.shown)h+='<div class="kanji-answer"><span>'+esc(x.reading)+'</span><strong>'+esc(x.meaning)+'</strong></div>';h+='</div>';
+if(!K.shown)h+=btn('Tampilkan bacaan & arti','kreveal','pri');else h+='<div class="k-card-actions">'+btn('Sudah hafal','knext','pri')+btn('Belum hafal','kagain')+'</div>';
 h+=btn('Kembali ke materi','khome');show(h)}
 function ktest(){var x=K.questions[K.i];if(!x){var n=K.answers.filter(Boolean).length;show('<h2>Hasil tes kanji</h2><div class="sc">'+n+' / '+K.questions.length+'</div><p>'+Math.round(n/K.questions.length*100)+'% benar</p>'+btn('Tes lagi','kstart|test','pri')+btn('Kembali','khome'));return}
 var opts=shuffle([x].concat(shuffle(K.items.filter(function(y){return y.id!==x.id&&y.meaning!==x.meaning})).slice(0,3)));K.opts=opts;
-var h='<div class="bar"><b>Tes kanji</b><span>'+(K.i+1)+' / '+K.questions.length+'</span><button class="x" data-a="khome">✕</button></div><p class="sub">Pilih arti yang tepat.</p><div class="kanji-card"><div class="kanji-word">'+esc(x.word)+'</div><div>'+esc(x.reading)+'</div></div>';
-opts.forEach(function(o,i){h+=btn((i+1)+'. '+esc(o.meaning),'kanswer|'+o.id)});show(h)}
+var pct=Math.round(K.i/K.questions.length*100);var h='<div class="bar"><b>Tes kanji</b><button class="x" data-a="khome">✕</button></div><div class="k-progress-head"><span>Pertanyaan '+(K.i+1)+'</span><strong>'+K.questions.length+' soal</strong></div><div class="k-progress"><i style="width:'+pct+'%"></i></div><p class="k-test-prompt">Pilih arti yang tepat.</p><div class="kanji-card k-test-card"><span class="k-card-label">Kosakata</span><div class="kanji-word">'+esc(x.word)+'</div><div class="k-reading">'+esc(x.reading)+'</div></div><div class="k-options">';
+opts.forEach(function(o,i){h+='<button class="k-option" data-a="kanswer|'+o.id+'"><span>'+(i+1)+'</span>'+esc(o.meaning)+'</button>'});h+='</div>';show(h)}
 
 var A={
  home:function(){clearInterval(tick);var h='<h1>Latihan JLPT</h1><p class="sub">Soal buatan sendiri, bukan soal resmi.</p>'+btn('Kanji JFT Basic — Flashcard & Tes','kload','pri');
